@@ -18,7 +18,7 @@ body {
 	font-family: forma-djr-banner, sans-serif;
 	text-transform: uppercase;
 	left: 45vh;
-	top: 5vh;
+	top: 15vh;
 }
 
 .class-projects {
@@ -29,7 +29,7 @@ body {
 	font-family: forma-djr-banner, sans-serif;
 	text-transform: uppercase;
 	left: 27vh;
-	top: -33vh;
+	top: -13vh;
 }
 
 .illustrations {
@@ -40,7 +40,7 @@ body {
 	font-family: forma-djr-banner, sans-serif;
 	text-transform: uppercase;
 	left: 40vh;
-	top: -60vh;
+	top: -40vh;
 }
 
 .designs {
@@ -51,7 +51,7 @@ body {
 	font-family: forma-djr-banner, sans-serif;
 	text-transform: uppercase;
 	left: 60vh;
-	top: -87vh;
+	top: -67vh;
 }
 
 .circle img {
@@ -60,7 +60,7 @@ body {
  	max-width: 30%;
  	height: auto;
  	left: 20vh;
-	top: -190vh;
+	top: -170vh;
 	z-index: -10;
 }
 
@@ -70,7 +70,7 @@ body {
  	max-width: 14%;
  	height: auto;
  	left: 150vh;
-	top: -212vh;
+	top: -192vh;
 	z-index: -10;
 }
 
@@ -80,7 +80,7 @@ body {
  	max-width: 10%;
  	height: auto;
  	left: 130vh;
-	top: -215vh;
+	top: -195vh;
 	z-index: -10;
 }
 
@@ -92,7 +92,7 @@ body {
 	font-family: forma-djr-banner, sans-serif;
 	text-transform: uppercase;
 	left: 0vh;
-	top: -218vh;
+	top: -198vh;
 }
 
 .email {
@@ -103,7 +103,7 @@ body {
 	font-family: forma-djr-banner, sans-serif;
 	text-transform: uppercase;
 	left: 165vh;
-	top: -224vh;
+	top: -204vh;
 }
 
 .instagram {
@@ -114,7 +114,7 @@ body {
 	font-family: forma-djr-banner, sans-serif;
 	text-transform: uppercase;
 	left: 178vh;
-	top: -227.3vh;
+	top: -207.3vh;
 }
 
 a {
