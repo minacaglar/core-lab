@@ -1,0 +1,176 @@
+html {
+	background: white;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-family: forma-djr-banner, sans-serif;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-circle-lg-black-fill.png) 15 15,auto !important;
+}
+body {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.bio {
+	position: relative;
+	color: black;
+	font-size: 150px;
+	font-weight: lighter;
+	font-family: forma-djr-banner, sans-serif;
+	text-transform: uppercase;
+	left: 45vh;
+	top: -5vh;
+}
+
+.class-projects {
+	position: relative;
+	color: black;
+	font-size: 150px;
+	font-weight: lighter;
+	font-family: forma-djr-banner, sans-serif;
+	text-transform: uppercase;
+	left: 27vh;
+	top: -33vh;
+}
+
+.illustrations {
+	position: relative;
+	color: black;
+	font-size: 150px;
+	font-weight: lighter;
+	font-family: forma-djr-banner, sans-serif;
+	text-transform: uppercase;
+	left: 40vh;
+	top: -60vh;
+}
+
+.designs {
+	position: relative;
+	color: black;
+	font-size: 150px;
+	font-weight: lighter;
+	font-family: forma-djr-banner, sans-serif;
+	text-transform: uppercase;
+	left: 60vh;
+	top: -87vh;
+}
+
+.circle img {
+	position: relative;
+	display: block;
+ 	max-width: 30%;
+ 	height: auto;
+ 	left: 20vh;
+	top: -190vh;
+	z-index: -10;
+}
+
+.moon img {
+	position: relative;
+	display: block;
+ 	max-width: 14%;
+ 	height: auto;
+ 	left: 150vh;
+	top: -212vh;
+	z-index: -10;
+}
+
+.star img {
+	position: relative;
+	display: block;
+ 	max-width: 10%;
+ 	height: auto;
+ 	left: 130vh;
+	top: -215vh;
+	z-index: -10;
+}
+
+.quote {
+	position: relative;
+	color: black;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: forma-djr-banner, sans-serif;
+	text-transform: uppercase;
+	left: 0vh;
+	top: -218vh;
+}
+
+.email {
+	position: relative;
+	color: black !important;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: forma-djr-banner, sans-serif;
+	text-transform: uppercase;
+	left: 165vh;
+	top: -224vh;
+}
+
+.instagram {
+	position: relative;
+	color: black;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: forma-djr-banner, sans-serif;
+	text-transform: uppercase;
+	left: 178vh;
+	top: -227.3vh;
+}
+
+a {
+	text-decoration: none;
+	color: black !important;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+a:hover {
+	color: #E88376;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+.bio:hover {
+	color: #E88376;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+.class-projects:hover {
+	color: #E88376;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+.illustrations:hover {
+	color: #E88376;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+.designs:hover {
+	color: #E88376;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+.email:hover {
+	color: #E88376;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+.instagram:hover {
+	color: #E88376;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
