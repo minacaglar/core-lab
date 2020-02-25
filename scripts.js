@@ -2,3 +2,11 @@
 // Using Chrome developer tools, if you look at the console, you can see the message appearing on the console.
 
 console.log('Is the scripts file working?');
+
+$('#switch').on('click', () => {
+    if ($('#switch').prop('checked')) {
+        $('.wrapper').addClass('dark');
+    } else {
+        $('.wrapper').removeClass('dark');
+    }
+})
