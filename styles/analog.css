@@ -8,8 +8,8 @@ html {
 }
 
 body {
-  	margin: 0;
-  	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -42,80 +42,79 @@ h2 {
 }
 
 .topnav {
-  	overflow: hidden;
-  	padding: 20;
+  overflow: hidden;
+  padding: 20;
 }
 
 .topnav a {
-  	float: left;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
-  	font-size: 16px;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .topnav-right {
-  	float: right;	
+  float: right;	
 }
 
 .navbar {
 	background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
-	margin: 0;
-  	padding: 10;
+  margin: 0;
+  padding: 10;
 	font-family: lust, serif;
 	font-style: normal;
 	font-weight: 400;
-  	overflow: hidden;
-  	position: fixed;
-  	bottom: 0;
-  	width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .navbar a {
 	color: white !important;
-  	float: left;
-  	display: block;
-  	text-align: center !important;
-  	padding: 14px 16px;
-  	text-decoration: none;
-  	font-size: 17px;
-  	text-transform: uppercase;
+  float: left;
+  display: block;
+  text-align: center !important;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .square {
-    float:left;
-    position: relative;
-    width: 18%;
-    padding-bottom : 18%; /* = width for a 1:1 aspect ratio */
-    margin: 7.5%;
-    background-color:#E7473A;
-    overflow: hidden;
-    content: 
+  float:left;
+  position: relative;
+  width: 18%;
+  padding-bottom : 18%; /* = width for a 1:1 aspect ratio */
+  margin: 7.5%;
+  background-color:#E7473A;
+  overflow: hidden;
+  content: 
 }
 
 .content {
-    position:absolute;
-    height:90%; /* = 100% - 2*5% padding */
-    width:90%; /* = 100% - 2*5% padding */
-    padding: 5%;
-    text-align:center;
+  position:absolute;
+  height:90%; /* = 100% - 2*5% padding */
+  width:90%; /* = 100% - 2*5% padding */
+  padding: 5%;
+  text-align:center;
 }
 
 /*  For responsive images */
 
 .rs{
-    width:auto;
-    height:auto;
-    max-height:90%;
-    max-width:100%;
+  width:auto;
+  height:auto;
+  max-height:90%;
+  max-width:100%;
 }
 /*  For responsive images as background */
 
 .bg{
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
-    color:#fff;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+  color:#fff;
 }
 
 
@@ -129,7 +128,7 @@ a:hover {
 	color: #E88376;
 	background-color: rgba(236,176,148);
 	-moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
