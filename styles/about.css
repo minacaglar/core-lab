@@ -79,14 +79,14 @@ h1 {
   	text-transform: uppercase;
 }
 
-.moon img {
+.portrait img {
 	position: relative;
 	display: block;
  	max-width: 14%;
  	height: auto;
  	top: 35vh;
  	left: 22vh;
-	z-index: -10;
+	z-index: 10;
 }
 
 .star img {
@@ -113,16 +113,3 @@ a:hover {
     border-radius: 100px;
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
