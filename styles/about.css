@@ -24,7 +24,7 @@ h1 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translateX(-80%) translateY(-50%);
+	transform: translateX(-80%) translateY(-65%);
 }
 
 h2 {
@@ -38,7 +38,7 @@ h2 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translateX(100%) translateY(1000%);
+	transform: translateX(80%) translateY(600%);
 }
 
 .topnav {
@@ -97,19 +97,32 @@ h2 {
 	display: block;
  	max-width: 17%;
  	height: auto;
- 	top: 25vh;
+ 	top: 20vh;
  	left: 14vh;
 	z-index: 10;
 }
 
 .snake img {
+	position: absolute;
+	display: block;
+ 	max-width: 13%;
+ 	height: auto;
+ 	top: 9vh;
+ 	left: 143vh;
+	z-index: -10;
+	transform: rotate(90deg);
+}
+
+.snake:hover {
+	content: url('../assets/snake-blur.png');
 	position: relative;
 	display: block;
- 	max-width: 70%;
+ 	max-width: 13%;
  	height: auto;
- 	top: 65vh;
- 	left: 70vh;
+ 	top: 9vh;
+ 	left: 143vh;
 	z-index: -10;
+	transform: rotate(90deg);
 }
 
 a {
