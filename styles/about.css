@@ -13,19 +13,32 @@ body {
 }
 
 h1 {
-	font-size: 150px;
+	font-size: 50px;
 	margin: 0;
 	padding: 0;
-	text-align: center;
-	line-height: 90%;
-	font-family: lust, serif;
+	text-align: left;
+	line-height: 120%;
+	font-family: freight-big-pro, serif;
+	font-weight: 500;
 	font-style: normal;
-	font-weight: 400;
-	text-transform: lowercase;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-80%) translateY(-50%);
+}
+
+h2 {
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+	line-height: 120%;
+	font-family: lust, serif;
+	font-style: italic;
+	font-weight: 400;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(100%) translateY(1000%);
 }
 
 .topnav {
@@ -82,20 +95,20 @@ h1 {
 .portrait img {
 	position: relative;
 	display: block;
- 	max-width: 14%;
+ 	max-width: 17%;
  	height: auto;
- 	top: 35vh;
- 	left: 22vh;
+ 	top: 25vh;
+ 	left: 14vh;
 	z-index: 10;
 }
 
-.star img {
+.snake img {
 	position: relative;
 	display: block;
- 	max-width: 10%;
+ 	max-width: 70%;
  	height: auto;
- 	top: 15vh;
- 	left: 145vh;
+ 	top: 65vh;
+ 	left: 70vh;
 	z-index: -10;
 }
 
