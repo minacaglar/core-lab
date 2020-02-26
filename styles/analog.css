@@ -82,38 +82,42 @@ h2 {
   	text-transform: uppercase;
 }
 
-.portrait img {
-	position: relative;
-	display: block;
- 	max-width: 17%;
- 	height: auto;
- 	top: 20vh;
- 	left: 14vh;
-	z-index: 10;
+.square {
+    float:left;
+    position: relative;
+    width: 18%;
+    padding-bottom : 18%; /* = width for a 1:1 aspect ratio */
+    margin: 7.5%;
+    background-color:#E7473A;
+    overflow: hidden;
+    content: 
 }
 
-.snake img {
-	position: relative;
-	display: block;
- 	max-width: 13%;
- 	height: auto;
- 	top: 9vh;
- 	left: 143vh;
-	z-index: -10;
-	transform: rotate(90deg);
+.content {
+    position:absolute;
+    height:90%; /* = 100% - 2*5% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 5%;
+    text-align:center;
 }
 
-.snake:hover {
-	content: url('../assets/snake-blur.png');
-	position: relative;
-	display: block;
- 	max-width: 13%;
- 	height: auto;
- 	top: 9vh;
- 	left: 143vh;
-	z-index: -10;
-	transform: rotate(90deg);
+/*  For responsive images */
+
+.rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
 }
+/*  For responsive images as background */
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
+}
+
 
 a {
 	text-decoration: none;
