@@ -1,0 +1,118 @@
+html {
+	background: #F0E9DC;
+	font-size: 15px;
+	font-family: aktiv-grotesk, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-circle-lg-black-fill.png) 15 15,auto !important;
+}
+
+body {
+  	margin: 0;
+  	padding: 0;
+}
+
+h1 {
+	font-size: 150px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 90%;
+	font-family: lust, serif;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: lowercase;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.topnav {
+  	overflow: hidden;
+  	padding: 20;
+}
+
+.topnav a {
+  	float: left;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 16px;
+}
+
+.topnav-right {
+  	float: right;	
+}
+
+.glow img {
+	position: absolute;
+	display: block;
+ 	max-width: 40%;
+ 	height: auto;
+	top: 10vh;
+	left: 55vh;
+	z-index: -10;
+}
+
+.navbar {
+	background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
+	margin: 0;
+  	padding: 10;
+	font-family: lust, serif;
+	font-style: normal;
+	font-weight: 400;
+  	overflow: hidden;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+}
+
+.navbar a {
+	color: white !important;
+  	float: left;
+  	display: block;
+  	text-align: center !important;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	text-transform: uppercase;
+}
+
+.moon img {
+	position: relative;
+	display: block;
+ 	max-width: 14%;
+ 	height: auto;
+ 	top: 35vh;
+ 	left: 22vh;
+	z-index: -10;
+}
+
+.star img {
+	position: relative;
+	display: block;
+ 	max-width: 10%;
+ 	height: auto;
+ 	top: 15vh;
+ 	left: 145vh;
+	z-index: -10;
+}
+
+a {
+	text-decoration: none;
+	color: black !important;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+a:hover {
+	color: #E88376;
+	background-color: rgba(236,176,148);
+	-moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+
+
