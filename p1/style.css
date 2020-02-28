@@ -156,63 +156,7 @@ html {
 	margin-left: 155vh;
  	z-index: -100;
 }
-/*
-.highlight1 img {
-	position: relative;
-	display: block;
- 	max-width: 30%;
- 	height: auto;
-}
 
-.highlight2 img {
-	position: relative;
-	display: block;
- 	max-width: 14%;
- 	height: auto;
-}
-
-.highlight3 img {
-	position: relative;
-	display: block;
- 	max-width: 10%;
- 	height: auto;
-}
-
-.highlight4 img {
-	position: relative;
-	display: block;
- 	max-width: 30%;
- 	height: auto;
-}
-
-.highlight5 img {
-	position: relative;
-	display: block;
- 	max-width: 14%;
- 	height: auto;
-}
-
-.highlight6 img {
-	position: relative;
-	display: block;
- 	max-width: 10%;
- 	height: auto;
-}
-
-.highlight7 img {
-	position: relative;
-	display: block;
- 	max-width: 30%;
- 	height: auto;
-}
-
-.highlight8 img {
-	position: relative;
-	display: block;
- 	max-width: 14%;
- 	height: auto;
-}
-*/
 .logo img {
 	position: fixed;
 	display: block;
@@ -248,7 +192,7 @@ html {
 	display: block;
  	max-width: 35%;
  	height: auto;
-  	margin-top: -70vh;
+  	margin-top: -65vh;
  	margin-left: -8vh;
  	z-index: -10;
 }
@@ -318,7 +262,63 @@ html {
  	margin-left: -20vh;
  	z-index: -10;
 }
+/*
+.highlight1 img {
+	position: relative;
+	display: block;
+ 	max-width: 30%;
+ 	height: auto;
+}
 
+.highlight2 img {
+	position: relative;
+	display: block;
+ 	max-width: 14%;
+ 	height: auto;
+}
+
+.highlight3 img {
+	position: relative;
+	display: block;
+ 	max-width: 10%;
+ 	height: auto;
+}
+
+.highlight4 img {
+	position: relative;
+	display: block;
+ 	max-width: 30%;
+ 	height: auto;
+}
+
+.highlight5 img {
+	position: relative;
+	display: block;
+ 	max-width: 14%;
+ 	height: auto;
+}
+
+.highlight6 img {
+	position: relative;
+	display: block;
+ 	max-width: 10%;
+ 	height: auto;
+}
+
+.highlight7 img {
+	position: relative;
+	display: block;
+ 	max-width: 30%;
+ 	height: auto;
+}
+
+.highlight8 img {
+	position: relative;
+	display: block;
+ 	max-width: 14%;
+ 	height: auto;
+}
+*/
 a {
 	text-decoration: none;
 	color: black !important;
