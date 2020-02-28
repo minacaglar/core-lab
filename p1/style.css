@@ -141,9 +141,9 @@ html {
 .doodle7 img {
 	position: relative;
 	display: block;
- 	max-width: 30%;
+ 	max-width: 25%;
  	height: auto;
- 	margin-top: -8vh;
+ 	margin-top: 10vh;
 	margin-left: 40vh;
 }
 
@@ -323,6 +323,10 @@ a {
 	text-decoration: none;
 	color: black !important;
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+a:hover {
+	color: transparent !important;
+	text-shadow: 0 0 8px #000;
 }
 
 
