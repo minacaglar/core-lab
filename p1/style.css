@@ -1,0 +1,331 @@
+html {
+	background-image: url(images/background.png);
+	background-size: cover;
+	width: 1450px;
+  	height: 1000px;
+  	background-repeat: no-repeat;
+  	overflow-x: hidden;
+	color: black;
+	font-family: futura, sans-serif;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-circle-lg-black-fill.png) 15 15,auto !important;
+}
+
+.quote1 {
+	position: relative;
+	background-color: #84ff00;
+	font-size: 25px;
+	text-align: right;
+	margin-top: 30vh;
+	margin-right: 10vh;
+}
+
+.quote2 {
+	position: relative;
+	background-color: #84ff00;
+	font-size: 35px;
+	text-align: left;
+	margin-top: 20vh;
+	margin-left: 35vh;
+
+}
+
+.quote3 {
+	position: relative;
+	background-color: #84ff00;
+	font-size: 90px;
+	text-align: center;
+	margin-top: 45vh;
+	margin-right: 0vh;
+
+}
+
+.quote4 {
+	position: relative;
+	background-color: #84ff00;
+	font-size: 25px;
+	text-align: left;
+	margin-top: 60vh;
+	margin-left: 20vh;
+
+}
+
+.quote5 {
+	position: relative;
+	background-color: #84ff00;
+	font-size: 60px;
+	text-align: right;
+	margin-top: 10vh;
+	margin-right: 5vh;
+
+}
+
+.quote6 {
+	position: relative;
+	background-color: #84ff00;
+	font-size: 25px;
+	text-align: left;
+	margin-top: 20vh;
+	margin-left: 20vh;
+
+}
+
+.quote7 {
+	position: relative;
+	background-color: #84ff00;
+	font-size: 80px;
+	text-align: right;
+	margin-top: 15vh;
+	margin-right: 20vh;
+
+}
+
+.quote8 {
+	position: relative;
+	background-color: #84ff00;
+	font-size: 20px;
+	text-align: right;
+	margin-top: 13vh;
+	margin-right: 20vh;
+}
+
+.doodle1 img {
+	position: relative;
+	display: block;
+ 	max-width: 15%;
+ 	height: auto;
+ 	margin-top: 5vh;
+	margin-left: 87vh;
+}
+
+.doodle2 img {
+	position: relative;
+	display: block;
+ 	max-width: 14%;
+ 	height: auto;
+}
+
+.doodle3 img {
+	position: relative;
+	display: block;
+ 	max-width: 10%;
+ 	height: auto;
+ 	margin-top: 5vh;
+	margin-left: 87vh;
+}
+
+.doodle4 img {
+	position: relative;
+	display: block;
+ 	max-width: 20%;
+ 	height: auto;
+ 	margin-top: 5vh;
+	margin-left: 140vh;
+}
+
+.doodle5 img {
+	position: relative;
+	display: block;
+ 	max-width: 14%;
+ 	height: auto;
+}
+
+.doodle6 img {
+	position: relative;
+	display: block;
+ 	max-width: 15%;
+ 	height: auto;
+ 	margin-top: 5vh;
+	margin-left: 50vh;
+}
+
+.doodle7 img {
+	position: relative;
+	display: block;
+ 	max-width: 30%;
+ 	height: auto;
+ 	margin-top: -8vh;
+	margin-left: 40vh;
+}
+
+.doodle8 img {
+	position: relative;
+	display: block;
+ 	max-width: 20%;
+ 	height: auto;
+ 	margin-top: -30vh;
+	margin-left: 155vh;
+ 	z-index: -100;
+}
+
+.highlight1 img {
+	position: relative;
+	display: block;
+ 	max-width: 30%;
+ 	height: auto;
+}
+
+.highlight2 img {
+	position: relative;
+	display: block;
+ 	max-width: 14%;
+ 	height: auto;
+}
+
+.highlight3 img {
+	position: relative;
+	display: block;
+ 	max-width: 10%;
+ 	height: auto;
+}
+
+.highlight4 img {
+	position: relative;
+	display: block;
+ 	max-width: 30%;
+ 	height: auto;
+}
+
+.highlight5 img {
+	position: relative;
+	display: block;
+ 	max-width: 14%;
+ 	height: auto;
+}
+
+.highlight6 img {
+	position: relative;
+	display: block;
+ 	max-width: 10%;
+ 	height: auto;
+}
+
+.highlight7 img {
+	position: relative;
+	display: block;
+ 	max-width: 30%;
+ 	height: auto;
+}
+
+.highlight8 img {
+	position: relative;
+	display: block;
+ 	max-width: 14%;
+ 	height: auto;
+}
+
+.logo img {
+	position: fixed;
+	display: block;
+ 	max-width: 14%;
+ 	height: auto;
+ 	top: 5px;
+ 	z-index: 100;
+
+}
+.apple img {
+	position: relative;
+	display: block;
+ 	max-width: 30%;
+ 	height: auto;
+ 	margin-top: -55vh;
+ 	margin-left: 90vh;
+ 	z-index: -10;
+
+}
+
+.potato img {
+	position: relative;
+	display: block;
+ 	max-width: 100%;
+ 	height: auto;
+ 	margin-top: -35vh;
+ 	margin-left: 140vh;
+ 	z-index: -10;
+}
+
+.tall img {
+	position: relative;
+	display: block;
+ 	max-width: 35%;
+ 	height: auto;
+  	margin-top: -70vh;
+ 	margin-left: -8vh;
+ 	z-index: -10;
+}
+
+.ricecake img {
+	position: relative;
+	display: block;
+ 	width: 20%; 
+    height: 20%; 
+    object-fit: contain; 
+ 	height: auto;
+ 	margin-top: -80vh;
+ 	margin-left: 120vh;
+ 	z-index: -10;
+}
+
+.mirror img {
+	position: relative;
+	display: block;
+ 	width: 25%; 
+    height: 25%; 
+    object-fit: contain; 
+ 	height: auto;
+ 	margin-top: -60vh;
+ 	margin-left: 2vh;
+ 	z-index: -10;
+}
+
+.window img {
+	position: relative;
+	display: block;
+ 	max-width: 60%;
+ 	height: auto;
+ 	margin-top: -60vh;
+ 	margin-left: 95vh;
+ 	z-index: -10;
+}
+
+.bible img {
+	position: relative;
+	display: block;
+ 	max-width: 18%;
+ 	height: auto;
+ 	margin-top: -20vh;
+ 	margin-left: 16vh;
+ 	z-index: -10;
+}
+
+.beer img {
+	position: relative;
+	display: block;
+ 	max-width: 50%;
+ 	height: auto;
+ 	margin-top: -110vh;
+ 	margin-left: 110vh;
+ 	z-index: -10;
+}
+
+.plane img {
+	position: relative;
+	display: block;
+ 	width: 70%; 
+    height: 85%; 
+    object-fit: contain; 
+ 	height: auto;
+ 	margin-top: -70vh;
+ 	margin-left: -20vh;
+ 	z-index: -10;
+}
+
+a {
+	text-decoration: none;
+	color: black !important;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+
+
+
+
