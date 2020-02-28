@@ -156,7 +156,7 @@ html {
 	margin-left: 155vh;
  	z-index: -100;
 }
-
+/*
 .highlight1 img {
 	position: relative;
 	display: block;
@@ -212,7 +212,7 @@ html {
  	max-width: 14%;
  	height: auto;
 }
-
+*/
 .logo img {
 	position: fixed;
 	display: block;
@@ -324,6 +324,7 @@ a {
 	color: black !important;
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
+
 a:hover {
 	color: transparent !important;
 	text-shadow: 0 0 8px #000;
