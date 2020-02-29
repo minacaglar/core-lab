@@ -110,7 +110,11 @@ h2 {
 }
 
 /* for making it responsive, phone screen*/
+@media (max-width: 800px) {
 
+  .container {
+    flex-direction: column;
+  }
 }
 
 
