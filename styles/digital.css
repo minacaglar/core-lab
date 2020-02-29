@@ -83,6 +83,43 @@ a:hover {
     border-radius: 100px;
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
+.moon img {
+	position: relative;
+	display: block;
+ 	max-width: 24%;
+ 	height: auto;
+ 	top: 20vh;
+ 	left: 22vh;
+	z-index: -10;
+	animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.star img {
+	position: relative;
+	display: block;
+ 	max-width: 20%;
+ 	height: auto;
+ 	top: -17vh;
+ 	left: 135vh;
+	z-index: -10;
+	animation-name: floating;
+    animation-duration: 2.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 20px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
+
+
 
 
 
