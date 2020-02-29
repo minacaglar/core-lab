@@ -3,7 +3,6 @@ html {
 }
 
 .title {
-	background-image: linear-gradient(#FF6700,rgba(255,0,0,0));
 	margin: -10;
   	padding: 10;
 	font-size: 50px;
@@ -12,7 +11,7 @@ html {
 }
 
 h1 {
-	color: white;
+	color: black;
 	font-family: blurlight;
 	font-style: normal;
 	font-weight: 400;
