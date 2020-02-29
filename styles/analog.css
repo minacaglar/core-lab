@@ -81,40 +81,40 @@ h2 {
   font-size: 17px;
 }
 
-.square {
-  float:left;
+.squares {
+  width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
   position: relative;
-  width: 18%;
-  padding-bottom : 18%; /* = width for a 1:1 aspect ratio */
-  margin: 7.5%;
-  background-color:#E7473A;
-  overflow: hidden;
-  content: 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.content {
-  position:absolute;
-  height:90%; /* = 100% - 2*5% padding */
-  width:90%; /* = 100% - 2*5% padding */
-  padding: 5%;
-  text-align:center;
+.flex-image {
+  width: 100%;
+  height: auto;
+  max-width: 270px;
+  align-self: center;
+  padding: 30px;
+  flex-basis: 25%;
 }
 
-/*  For responsive images */
+/* for making it responsive, phone screen*/
+@media (max-width: 800px) {
 
-.rs{
-  width:auto;
-  height:auto;
-  max-height:90%;
-  max-width:100%;
-}
-/*  For responsive images as background */
-
-.bg{
-  background-position:center center;
-  background-repeat:no-repeat;
-  background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
-  color:#fff;
+  .container {
+    flex-direction: column;
+  }
 }
 
 

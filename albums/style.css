@@ -1,0 +1,38 @@
+.albums {
+	background-color: #D8CEC8;
+	width: 100%;
+	min-height: 100%;
+}
+
+.container {
+	width: 100%;
+	max-width: 80%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.flex-image {
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+	align-self: center;
+	padding: 20px;
+	flex-basis: 25%;
+}
+/* for making it responsive, phone screen*/
+@media (max-width: 800px) {
+
+	.container {
+		background: black;
+		flex-direction: column;
+	}
+}
+
+
