@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+ body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    background-color: #dbc9b6;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.flexbox {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.flex-image {
+    max-width: 500px;
+    flex-basis: 40%;
+    padding: 20px;
+ }
+
+ 
+
+@media (min-width: 800px) {
+
+
+    .hair {
+        position: absolute;
+        max-width: 55%;
+        top: 1%;
+        bottom: 100px;
+    }
+
+    .circle {
+        position: absolute;
+        width: 20%;
+        top: 25%;
+        left: 550px;
+    }
+    .tooth1 {
+        position: absolute;
+        width: 8%;
+        top: 20%;
+        left: 37%;
+    }
+
+    .tooth2 {
+        position: absolute;
+        width: 10%;
+        top: 33%;
+        left: 50%;
+    }
+
+    .tooth3 {
+        position: absolute;
+        width: 8.5%;
+        top: 47%;
+        left: 38%;
+    }
+     
+}
+
+
+.fade-in {
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
