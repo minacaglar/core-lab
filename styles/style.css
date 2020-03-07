@@ -1,146 +1,156 @@
-html {
-	background: #F0E9DC;
-	font-size: 15px;
-	font-family: aktiv-grotesk, sans-serif;
-	font-style: normal;
-	font-weight: 200;
-	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-circle-lg-black-fill.png) 15 15,auto !important;
+* {
+  box-sizing: border-box;
 }
 
-body {
-  	margin: 0;
-  	padding: 0;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  background: #F0E9DC;
+  font-size: 15px;
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-circle-lg-black-fill.png) 15 15,auto !important;
 }
 
 h1 {
-	font-size: 150px;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	line-height: 90%;
-	font-family: lust, serif;
-	font-style: normal;
-	font-weight: 400;
-	text-transform: lowercase;
-	position: absolute;
-	top: 30%;
-	left: 32%;
-	transform: translateX(-50%) translateY(-50%);
-	animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
-.topnav {
-  	overflow: hidden;
-  	padding: 10px;
-}
-
-.topnav a {
-  	float: left;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
-  	font-size: 16px;
-}
-
-.topnav-right {
-  	float: right;	
-}
-
-.glow img {
-	position: absolute;
-	display: block;
- 	max-width: 40%;
- 	height: auto;
-	top: 10vh;
-	left: 55vh;
-	z-index: -10;
-}
-
-.navbar {
-	background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
-	margin: 0;
-  	padding: 10;
-	font-family: lust, serif;
-	font-style: normal;
-	font-weight: 400;
-  	overflow: hidden;
-  	position: fixed;
-  	bottom: 0;
-  	width: 100%;
-}
-
-.navbar a {
-	color: white !important;
-  	float: left;
-  	display: block;
-  	text-align: center !important;
-  	padding: 14px 16px;
-  	text-decoration: none;
-  	font-size: 17px;
-}
-
-.moon img {
-	position: relative;
-	display: block;
- 	max-width: 14%;
- 	height: auto;
- 	top: 35vh;
- 	left: 22vh;
-	z-index: -10;
-	animation-name: example;
-  	animation-duration: 3s;  
-  	animation-fill-mode: forwards;
-}
-
-.star img {
-	position: relative;
-	display: block;
- 	max-width: 10%;
- 	height: auto;
- 	top: 13vh;
- 	left: 145vh;
-	z-index: -10;
-	animation-name: example;
-  	animation-duration: 3s;  
-  	animation-fill-mode: forwards;
-}
-
-@keyframes example {
-  	from {top: 0px;}
-  	to {top: 200px;}
+  font-size: 140px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 90%;
+  font-family: lust, serif;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: lowercase;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes floating {
-    from { transform: translate(0,  0px); }
-    65%  { transform: translate(0, 10px); }
-    to   { transform: translate(0, -0px); }    
+    from { transform: translateY(55%); }
+    65%  { transform: translate(0, 62%); }
+    to   { transform: translate(0, 55%); }    
 }
 
-a {
-	text-decoration: none;
-	color: black !important;
-	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+.header {
+  color: #ffffff;
+  padding: 3px;
+  overflow: hidden;
+}
+
+.header a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black !important;
+}
+
+.topnav-right {
+    float: right; 
+}
+
+.glow {
+  position: fixed;
+  max-width: 40%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  text-align: center
+  height: auto;
+  z-index: -100;
+}
+
+.moon {
+  position: relative;
+  display: fixed;
+  max-width: 25%;
+  height: auto;
+  top: 35%;
+  left: -10%;
+  z-index: -100;
+}
+
+.star {
+  position: relative;
+  display: fixed;
+  max-width: 25%;
+  height: auto;
+  top: 10%;
+  left: 70%;
+  z-index: -100;
+}
+
+.footer {
+  text-align: center;
+  padding: 2%;
+  margin: 0px;
+  display: block;
+  background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
+  font-family: lust, serif;
+  font-style: normal;
+  font-weight: 400;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  padding: 14px 16px;
+  color: white !important;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 a:hover {
-	color: #E88376;
-	background-color: rgba(236,176,148);
-	-moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
-	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+  background-color: rgba(236,176,148);
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+}
