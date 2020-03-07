@@ -59,12 +59,14 @@ h2 {
 }
 
 .navbar {
-	background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
-	margin: 0;
-  	padding: 10;
-	font-family: lust, serif;
-	font-style: normal;
-	font-weight: 400;
+	text-align: center;
+  	padding: 2%;
+  	margin: 0px;
+  	display: block;
+  	background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
+  	font-family: lust, serif;
+  	font-style: normal;
+  	font-weight: 400;
   	overflow: hidden;
   	position: fixed;
   	bottom: 0;
@@ -72,11 +74,8 @@ h2 {
 }
 
 .navbar a {
-	color: white !important;
-  	float: left;
-  	display: block;
-  	text-align: center !important;
-  	padding: 14px 16px;
+ 	padding: 14px 16px;
+  	color: white !important;
   	text-decoration: none;
   	font-size: 17px;
 }
