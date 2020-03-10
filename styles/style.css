@@ -170,13 +170,14 @@ a:hover {
     transform: translate(-50%, -50%);
   }
   .moon {
+    max-width: 25%;
+    top: 20%;
     left: 5%;
-    position: fixed;
   }
   .star {
-    top: 70%;
-    left: 60%;
-    position: fixed;
+    max-width: 25%;
+    top: 65%;
+    left: 65%;
   }
 
 }
