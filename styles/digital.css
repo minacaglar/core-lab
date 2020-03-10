@@ -121,13 +121,13 @@ a:hover {
 	font-size: 40px;
 	}
 	.moon img {
- 	max-width: 15%;
+ 	max-width: 25%;
  	top: 20vh;
  	left: 10vh;
 	}
 
 	.star img {
- 	max-width: 15%;
+ 	max-width: 25%;
  	top: 20vh;
  	left: 45vh;
 	}
