@@ -173,14 +173,13 @@ a:hover {
   }
   .moon {
     max-width: 25%;
-    top: 20%;
-    left: 5%;
+    top: 20vh;
+    left: 10vh;
   }
   .star {
     max-width: 25%;
-    top: 65%;
-    left: 65%;
-  }
+    top: 20vh;
+    left: 45vh;  }
 
 }
 
