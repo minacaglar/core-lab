@@ -158,7 +158,7 @@ a:hover {
 /* you can add properties here for mobile!!  */
 @media only screen and (max-width: 800px) {
   h1 {
-    font-size: 70px;
+    font-size: 80px;
     }
     .glow {
     max-width: 60%;
