@@ -15,6 +15,7 @@ body {
 .topnav {
   overflow: hidden;
   padding: 10px;
+  
 }
 .topnav a {
   float: left;

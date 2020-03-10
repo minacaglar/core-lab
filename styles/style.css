@@ -154,3 +154,36 @@ a:hover {
   .col-8 {width: 66.66%;}
   .col-9 {width: 75%;}
 }
+
+/* you can add properties here for mobile!!  */
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 80px;
+    }
+    .glow {
+    position: fixed;
+    max-width: 57%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    display: block;
+    text-align: center
+    height: auto;
+    z-index: -100;
+  }
+  .moon {
+    left: 5%;
+  }
+  .star {
+    top: 10%;
+    left: 50%;
+  }
+
+}
+
+
+
+
+
+
+
