@@ -116,6 +116,25 @@ a:hover {
     to   { transform: translate(0, -0px); }    
 }
 
+@media only screen and (max-width: 800px) {
+  ul {
+	font-size: 40px;
+	}
+	.moon img {
+ 	max-width: 15%;
+ 	top: 20vh;
+ 	left: 10vh;
+	}
+
+	.star img {
+ 	max-width: 15%;
+ 	top: 20vh;
+ 	left: 45vh;
+	}
+
+}
+
+
 
 
 
