@@ -161,15 +161,10 @@ a:hover {
     font-size: 80px;
     }
     .glow {
-    position: fixed;
-    max-width: 57%;
+    max-width: 60%;
     left: 50%;
     top: 45%;
     transform: translate(-50%, -50%);
-    display: block;
-    text-align: center
-    height: auto;
-    z-index: -100;
   }
   .moon {
     left: 5%;
