@@ -163,15 +163,17 @@ a:hover {
     .glow {
     max-width: 60%;
     left: 50%;
-    top: 45%;
+    top: 55%;
     transform: translate(-50%, -50%);
   }
   .moon {
     left: 5%;
+    position: fixed;
   }
   .star {
-    top: 10%;
-    left: 50%;
+    top: 70%;
+    left: 60%;
+    position: fixed;
   }
 
 }
