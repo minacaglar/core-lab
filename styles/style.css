@@ -25,9 +25,11 @@ body {
   text-decoration: none;
   font-size: 16px;
 }
+
 .topnav-right {
   float: right;
 }
+
 .navbar {
   text-align: center;
   padding: 2%;
@@ -42,12 +44,14 @@ body {
   bottom: 0;
   width: 100%;
 }
+
 .navbar a {
   padding: 14px 16px;
   color: white !important;
   text-decoration: none;
   font-size: 17px;
 }
+
 a {
   text-decoration: none;
   color: black !important;
@@ -55,6 +59,7 @@ a {
     15 15,
     auto !important;
   }
+
   a:hover {
   color: #e88376;
   background-color: rgba(236, 176, 148);
@@ -159,7 +164,7 @@ a:hover {
     font-family: lust, serif;
     font-style: normal;
     font-weight: 400;
-    padding-top: 70px;
+    padding-top: 100px;
     }
     .glow {
     max-width: 60%;
