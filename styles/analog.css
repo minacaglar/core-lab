@@ -111,9 +111,26 @@ h2 {
   font-size: 17px;
 }
 
-.squares {
-  width: 100%;
-  min-height: 100%;
+
+.tint {
+  position: relative;
+  float: left;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(231, 71, 58, 0.5);
+  transition: background .3s linear;
+}
+
+.tint:hover:before {
+  background: none;
 }
 
 .container {
@@ -135,7 +152,7 @@ h2 {
   height: auto;
   max-width: 270px;
   align-self: center;
-  padding: 30px;
+  padding: 0px;
   flex-basis: 25%;
 }
 
