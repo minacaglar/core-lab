@@ -1,0 +1,14 @@
+body {
+	margin: 0px,0px,0px,0px;
+	padding: 0px,0px,0px,0px;
+	background-color: #30A89C;
+
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 60px;
+	text-align: center;
+}
+
+.mybox {
+	color: white;
+	text-align: center;
+}

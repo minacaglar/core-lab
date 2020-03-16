@@ -10,25 +10,40 @@ html {
 }
 
 body {
-  	margin: 0;
-  	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-ul {
-	font-size: 50px;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	line-height: 120%;
+
+.split {
+	display: grid;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
+	
+	font-size: 45px;
+	margin: 0px;
+	padding: 0px;
+	
+	
 	font-family: freight-big-pro, serif;
 	font-weight: 500;
 	font-style: normal;
 	text-transform: lowercase;
-	list-style-type: none;
+	
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
+}
+
+.nested {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nested > div {
+  padding: 1em;
+  align-self: start;
 }
 
 .topnav {
@@ -37,30 +52,30 @@ ul {
 }
 
 .topnav a {
-  	float: left;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
-  	font-size: 16px;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .topnav-right {
-  	float: right;	
+  float: right;	
 }
 
 .navbar {
 	text-align: center;
-  	padding: 2%;
-  	margin: 0px;
-  	display: block;
-  	background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
-  	font-family: lust, serif;
-  	font-style: normal;
-  	font-weight: 400;
-  	overflow: hidden;
-  	position: fixed;
-  	bottom: 0;
-  	width: 100%;
+  padding: 2%;
+  margin: 0px;
+  display: block;
+  background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
+  font-family: lust, serif;
+	font-style: normal;
+  font-weight: 400;
+ 	overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .navbar a {
@@ -119,9 +134,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 800px) {
-  ul {
-	font-size: 40px;
+  .split {
+	font-size: 30px;
 	}
+
+  .active {
+    font-size: 30px;
+  }
 	.moon img {
  	max-width: 25%;
  	top: 20vh;
