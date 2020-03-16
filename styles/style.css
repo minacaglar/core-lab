@@ -186,6 +186,12 @@ a:hover {
     padding: 14% 17%;
     font-size: 15px;
   }
+  .footer {
+    padding: 5%;
+    margin: 0px;
+    bottom: 0;
+    width: 100%;
+  }
 
 }
 
