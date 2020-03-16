@@ -24,7 +24,6 @@ body {
 	margin: 0px;
 	padding: 0px;
 	
-	
 	font-family: freight-big-pro, serif;
 	font-weight: 500;
 	font-style: normal;
@@ -167,6 +166,9 @@ a:hover {
     	font-size: 15px;
   	}
   	.active {
+  		font-family: lust, serif; 
+		font-style: normal; 
+		font-weight: 400; 
   		font-size: 30px;
   	}
 
