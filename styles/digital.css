@@ -10,15 +10,15 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  	margin: 0;
+  	padding: 0;
 }
 
 
 .split {
 	display: grid;
-  grid-gap: 1em;
-  grid-auto-rows: minmax(100px, auto);
+  	grid-gap: 1em;
+  	grid-auto-rows: minmax(100px, auto);
 	
 	font-size: 45px;
 	margin: 0px;
@@ -37,13 +37,13 @@ body {
 }
 
 .nested {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  	display: grid;
+ 	grid-template-columns: 1fr 1fr;
 }
 
 .nested > div {
-  padding: 1em;
-  align-self: start;
+  	padding: 1em;
+  	align-self: start;
 }
 
 .topnav {
@@ -52,30 +52,30 @@ body {
 }
 
 .topnav a {
-  float: left;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 16px;
+  	float: left;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 16px;
 }
 
 .topnav-right {
-  float: right;	
+  	float: right;	
 }
 
 .navbar {
 	text-align: center;
-  padding: 2%;
-  margin: 0px;
-  display: block;
-  background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
-  font-family: lust, serif;
+  	padding: 2%;
+  	margin: 0px;
+  	display: block;
+  	background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
+  	font-family: lust, serif;
 	font-style: normal;
-  font-weight: 400;
+  	font-weight: 400;
  	overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
 }
 
 .navbar a {
