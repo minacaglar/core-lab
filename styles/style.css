@@ -180,7 +180,12 @@ a:hover {
   .star {
     max-width: 27%;
     top: 60vh;
-    left: 45vh;  }
+    left: 45vh;  
+  }
+  .footer a {
+  padding: 14px 16px;
+  font-size: 17px;
+  }
 
 }
 
