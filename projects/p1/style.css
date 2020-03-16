@@ -96,9 +96,9 @@ a:hover {
 .quote2 {
   position: absolute;
   background-color: #84ff00;
-  font-size: 210%;
-  margin-top: 24%;
-  margin-left: 18%;
+  font-size: 260%;
+  margin-top: 15%;
+  margin-left: 13%;
   z-index: 1000;
 
 }
@@ -148,7 +148,7 @@ a:hover {
   background-color: #84ff00;
   font-size: 450%;
   margin-top: 25%;
-  margin-left: 45%;
+  margin-left: 15%;
   z-index: 1000;
 
 }
