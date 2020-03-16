@@ -116,7 +116,7 @@ a:hover {
 .quote4 {
   position: absolute;
   background-color: #84ff00;
-  font-size: 270%;
+  font-size: 210%;
   margin-top: 18%;
   margin-left: 15%;
   z-index: 1000;
@@ -126,9 +126,9 @@ a:hover {
 .quote5 {
   position: absolute;
   background-color: #84ff00;
-  font-size: 420%;
+  font-size: 400%;
   margin-top: 22%;
-  margin-left: 35%;
+  margin-left: 42%;
   z-index: 1000;
 
 }
@@ -136,7 +136,7 @@ a:hover {
 .quote6 {
   position: absolute;
   background-color: #84ff00;
-  font-size: 230%;
+  font-size: 200%;
   margin-top: 20%;
   margin-left: 15%;
   z-index: 1000;
@@ -146,9 +146,9 @@ a:hover {
 .quote7 {
   position: absolute;
   background-color: #84ff00;
-  font-size: 450%;
+  font-size: 410%;
   margin-top: 25%;
-  margin-left: 15%;
+  margin-left: 13%;
   z-index: 1000;
 
 }
@@ -156,9 +156,9 @@ a:hover {
 .quote8 {
   position: absolute;
   background-color: #84ff00;
-  font-size: 190%;
+  font-size: 160%;
   margin-top: 20%;
-  margin-left: 20%;
+  margin-left: 27%;
   z-index: 1000;
 }
 
@@ -188,7 +188,7 @@ a:hover {
   max-width: 10%;
   height: auto;
   margin-top: 6%;
-  margin-left: 68%;
+  margin-left: 75%;
   z-index: 1000;
 }
 
@@ -215,10 +215,10 @@ a:hover {
 .doodle6 img {
   position: absolute;
   display: block;
-  max-width: 14%;
+  max-width: 12%;
   height: auto;
-  margin-top: 14%;
-  margin-left: 70.5%;
+  margin-top: 15%;
+  margin-left: 62%;
   z-index: 1000;
 }
 
@@ -235,7 +235,7 @@ a:hover {
 .doodle8 img {
   position: absolute;
   display: block;
-  max-width: 20%;
+  max-width: 25%;
   height: auto;
   margin-top: 19%;
   margin-left: 77%;
@@ -279,7 +279,7 @@ a:hover {
   object-fit: contain; 
   height: auto;
   margin-top: 5%;
-  margin-left: 68%;
+  margin-left: 75%;
   z-index: 100;
 }
 
