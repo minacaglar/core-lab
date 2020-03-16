@@ -191,6 +191,10 @@ h2 {
   		margin-right: auto;
   		width: 50%;
 	}
+	.footer a {
+    	padding: 14% 17%;
+    	font-size: 15px;
+  	}
 
 }
 

@@ -134,24 +134,28 @@ a:hover {
 }
 
 @media only screen and (max-width: 800px) {
-  .split {
-	font-size: 30px;
+  	.split {
+		font-size: 30px;
 	}
 
-  .active {
-    font-size: 30px;
-  }
+  	.active {
+    	font-size: 30px;
+  	}
 	.moon img {
- 	max-width: 25%;
- 	top: 20vh;
- 	left: 10vh;
+ 		max-width: 25%;
+ 		top: 20vh;
+ 		left: 10vh;
 	}
 
 	.star img {
- 	max-width: 25%;
- 	top: 20vh;
- 	left: 45vh;
+ 		max-width: 25%;
+ 		top: 20vh;
+ 		left: 45vh;
 	}
+	.footer a {
+    	padding: 14% 17%;
+    	font-size: 15px;
+  	}
 
 }
 
