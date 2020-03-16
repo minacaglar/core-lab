@@ -1,335 +1,340 @@
 html {
-	background-image: url(images/background.png);
-	background-size: cover;
-	width: 1450px;
-  	height: 1000px;
-  	background-repeat: no-repeat;
-  	overflow-x: hidden;
-	color: black;
-	font-family: futura, sans-serif;
-	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-circle-lg-black-fill.png) 15 15,auto !important;
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-family: futura, sans-serif;
+  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-circle-lg-black-fill.png) 15 15,auto !important;
+}
+
+a {
+  text-decoration: none;
+  color: black !important;
+  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+a:hover {
+  color: transparent !important;
+  text-shadow: 0 0 8px #000;
+}
+
+.wrapper {
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.box1 {
+  /*align-self:start;*/
+  grid-column: 1/4;
+  grid-row: 1/3;
+}
+
+.box2 {
+  /*align-self:end;*/
+  grid-column: 1/4;
+  grid-row: 3/5;
+}
+
+.box3 {
+  /*justify-self:end;*/
+  grid-column: 1/4;
+  grid-row: 5/7;
+}
+
+.box4 {
+  grid-column: 1/4;
+  grid-row: 7/9;
+}
+
+.box5 {
+  /*align-self:start;*/
+  grid-column: 1/4;
+  grid-row: 9/11;
+}
+
+.box6 {
+  /*align-self:end;*/
+  grid-column: 1/4;
+  grid-row: 11/13;
+}
+
+.box7 {
+  /*justify-self:end;*/
+  grid-column: 1/4;
+  grid-row: 13/15;
+}
+
+.box8 {
+  grid-column: 1/4;
+  grid-row: 15/17;
+}
+
+.logo img {
+  position: fixed;
+  display: block;
+  max-width: 14%;
+  height: auto;
+  top: 5px;
+  z-index: 100;
+
 }
 
 .quote1 {
-	position: relative;
-	background-color: #84ff00;
-	font-size: 25px;
-	text-align: right;
-	margin-top: 30vh;
-	margin-right: 10vh;
+  position: absolute;
+  background-color: #84ff00;
+  font-size: 180%;
+  margin-top: 18%;
+  margin-left: 50%;
+  z-index: 1000;
 }
 
 .quote2 {
-	position: relative;
-	background-color: #84ff00;
-	font-size: 35px;
-	text-align: left;
-	margin-top: 20vh;
-	margin-left: 35vh;
+  position: absolute;
+  background-color: #84ff00;
+  font-size: 210%;
+  margin-top: 24%;
+  margin-left: 18%;
+  z-index: 1000;
 
 }
 
 .quote3 {
-	position: relative;
-	background-color: #84ff00;
-	font-size: 90px;
-	text-align: center;
-	margin-top: 45vh;
-	margin-right: 0vh;
+  position: absolute;
+  background-color: #84ff00;
+  font-size: 500%;
+  margin-top: 17%;
+  margin-left: 18%;
+  z-index: 1000;
 
 }
 
 .quote4 {
-	position: relative;
-	background-color: #84ff00;
-	font-size: 25px;
-	text-align: left;
-	margin-top: 60vh;
-	margin-left: 20vh;
+  position: absolute;
+  background-color: #84ff00;
+  font-size: 170%;
+  margin-top: 33%;
+  margin-left: 20%;
+  z-index: 1000;
 
 }
 
 .quote5 {
-	position: relative;
-	background-color: #84ff00;
-	font-size: 60px;
-	text-align: right;
-	margin-top: 10vh;
-	margin-right: 5vh;
+  position: absolute;
+  background-color: #84ff00;
+  font-size: 380%;
+  margin-top: 22%;
+  margin-left: 43%;
+  z-index: 1000;
 
 }
 
 .quote6 {
-	position: relative;
-	background-color: #84ff00;
-	font-size: 25px;
-	text-align: left;
-	margin-top: 20vh;
-	margin-left: 20vh;
+  position: absolute;
+  background-color: #84ff00;
+  font-size: 160%;
+  margin-top: 22%;
+  margin-left: 22%;
+  z-index: 1000;
 
 }
 
 .quote7 {
-	position: relative;
-	background-color: #84ff00;
-	font-size: 80px;
-	text-align: right;
-	margin-top: 15vh;
-	margin-right: 20vh;
+  position: absolute;
+  background-color: #84ff00;
+  font-size: 450%;
+  margin-top: 25%;
+  margin-left: 45%;
+  z-index: 1000;
 
 }
 
 .quote8 {
-	position: relative;
-	background-color: #84ff00;
-	font-size: 20px;
-	text-align: right;
-	margin-top: 13vh;
-	margin-right: 20vh;
+  position: absolute;
+  background-color: #84ff00;
+  font-size: 130%;
+  margin-top: 27%;
+  margin-left: 37%;
+  z-index: 1000;
 }
 
 .doodle1 img {
-	position: relative;
-	display: block;
- 	max-width: 15%;
- 	height: auto;
- 	margin-top: 5vh;
-	margin-left: 87vh;
+  position: absolute;
+  display: block;
+  max-width: 15%;
+  height: auto;
+  margin-top: 20%;
+  margin-left: 40%;
+  z-index: 1000;
 }
 
 .doodle2 img {
-	position: relative;
-	display: block;
- 	max-width: 14%;
- 	height: auto;
+  position: absolute;
+  display: block;
+  max-width: 13%;
+  height: auto;
+  margin-top: 23%;
+  margin-left: 80%;
+  z-index: 1000;
 }
 
 .doodle3 img {
-	position: relative;
-	display: block;
- 	max-width: 10%;
- 	height: auto;
- 	margin-top: 5vh;
-	margin-left: 87vh;
+  position: absolute;
+  display: block;
+  max-width: 8%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 50%;
+  z-index: 1000;
 }
 
 .doodle4 img {
-	position: relative;
-	display: block;
- 	max-width: 20%;
- 	height: auto;
- 	margin-top: 5vh;
-	margin-left: 140vh;
+  position: absolute;
+  display: block;
+  max-width: 18%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 14%;
+  z-index: 1000;
 }
 
 .doodle5 img {
-	position: relative;
-	display: block;
- 	max-width: 14%;
- 	height: auto;
+  position: absolute;
+  display: block;
+  max-width: 14%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 40%;
+  z-index: 1000;
 }
 
 .doodle6 img {
-	position: relative;
-	display: block;
- 	max-width: 15%;
- 	height: auto;
- 	margin-top: 5vh;
-	margin-left: 50vh;
+  position: absolute;
+  display: block;
+  max-width: 10%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 15%;
+  z-index: 1000;
 }
 
 .doodle7 img {
-	position: relative;
-	display: block;
- 	max-width: 25%;
- 	height: auto;
- 	margin-top: 10vh;
-	margin-left: 40vh;
+  position: absolute;
+  display: block;
+  max-width: 25%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 40%;
+  z-index: 1000;
 }
 
 .doodle8 img {
-	position: relative;
-	display: block;
- 	max-width: 20%;
- 	height: auto;
- 	margin-top: -30vh;
-	margin-left: 155vh;
- 	z-index: -100;
+  position: absolute;
+  display: block;
+  max-width: 20%;
+  height: auto;
+  margin-top: 19%;
+  margin-left: 77%;
+  z-index: 1000;
 }
 
-.logo img {
-	position: fixed;
-	display: block;
- 	max-width: 14%;
- 	height: auto;
- 	top: 5px;
- 	z-index: 100;
-
-}
 .apple img {
-	position: relative;
-	display: block;
- 	max-width: 30%;
- 	height: auto;
- 	margin-top: -55vh;
- 	margin-left: 90vh;
- 	z-index: -10;
-
+  position: relative;
+  display: block;
+  max-width: 30%;
+  height: auto;
+  margin-left: 45%;
+  z-index: 100;
 }
 
 .potato img {
-	position: relative;
-	display: block;
- 	max-width: 100%;
- 	height: auto;
- 	margin-top: -35vh;
- 	margin-left: 140vh;
- 	z-index: -10;
+  position: relative;
+  display: block;
+  max-width: 40%;
+  height: auto;
+  margin-top: -20%;
+  margin-left: 70%;
+  z-index: 100;
 }
 
 .tall img {
-	position: relative;
-	display: block;
- 	max-width: 35%;
- 	height: auto;
-  	margin-top: -65vh;
- 	margin-left: -8vh;
- 	z-index: -10;
+  position: relative;
+  display: block;
+  max-width: 45%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: -5%;
+  z-index: 100;
 }
 
 .ricecake img {
-	position: relative;
-	display: block;
- 	width: 20%; 
-    height: 20%; 
-    object-fit: contain; 
- 	height: auto;
- 	margin-top: -80vh;
- 	margin-left: 120vh;
- 	z-index: -10;
+  position: relative;
+  display: block;
+  width: 20%; 
+  height: 20%; 
+  object-fit: contain; 
+  height: auto;
+  margin-top: 8%;
+  margin-left: 65%;
+  z-index: 100;
 }
 
 .mirror img {
-	position: relative;
-	display: block;
- 	width: 25%; 
-    height: 25%; 
-    object-fit: contain; 
- 	height: auto;
- 	margin-top: -60vh;
- 	margin-left: 2vh;
- 	z-index: -10;
+  position: relative;
+  display: block;
+  width: 25%; 
+  height: 25%; 
+  object-fit: contain; 
+  height: auto;
+  margin-top: 6%;
+  margin-left: 1%;
+  z-index: 100;
 }
 
 .window img {
-	position: relative;
-	display: block;
- 	max-width: 60%;
- 	height: auto;
- 	margin-top: -60vh;
- 	margin-left: 95vh;
- 	z-index: -10;
+  position: relative;
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin-top: 6%;
+  margin-left: 50%;
+  z-index: 100;
 }
 
 .bible img {
-	position: relative;
-	display: block;
- 	max-width: 18%;
- 	height: auto;
- 	margin-top: -20vh;
- 	margin-left: 16vh;
- 	z-index: -10;
+  position: relative;
+  display: block;
+  max-width: 18%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 3%;
+  z-index: 100;
 }
 
 .beer img {
-	position: relative;
-	display: block;
- 	max-width: 50%;
- 	height: auto;
- 	margin-top: -110vh;
- 	margin-left: 110vh;
- 	z-index: -10;
+  position: relative;
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin-top: -5%;
+  margin-left: 60%;
+  z-index: 100;
 }
 
 .plane img {
-	position: relative;
-	display: block;
- 	width: 70%; 
-    height: 85%; 
-    object-fit: contain; 
- 	height: auto;
- 	margin-top: -70vh;
- 	margin-left: -20vh;
- 	z-index: -10;
+  position: relative;
+  display: block;
+  width: 70%; 
+  height: 85%; 
+  object-fit: contain; 
+  height: auto;
+  margin-top: 7%;
+  margin-left: -2%;
+  z-index: 100;
 }
-/*
-.highlight1 img {
-	position: relative;
-	display: block;
- 	max-width: 30%;
- 	height: auto;
-}
-
-.highlight2 img {
-	position: relative;
-	display: block;
- 	max-width: 14%;
- 	height: auto;
-}
-
-.highlight3 img {
-	position: relative;
-	display: block;
- 	max-width: 10%;
- 	height: auto;
-}
-
-.highlight4 img {
-	position: relative;
-	display: block;
- 	max-width: 30%;
- 	height: auto;
-}
-
-.highlight5 img {
-	position: relative;
-	display: block;
- 	max-width: 14%;
- 	height: auto;
-}
-
-.highlight6 img {
-	position: relative;
-	display: block;
- 	max-width: 10%;
- 	height: auto;
-}
-
-.highlight7 img {
-	position: relative;
-	display: block;
- 	max-width: 30%;
- 	height: auto;
-}
-
-.highlight8 img {
-	position: relative;
-	display: block;
- 	max-width: 14%;
- 	height: auto;
-}
-*/
-a {
-	text-decoration: none;
-	color: black !important;
-	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
-}
-
-a:hover {
-	color: transparent !important;
-	text-shadow: 0 0 8px #000;
-}
-
 
 
 
