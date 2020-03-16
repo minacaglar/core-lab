@@ -175,10 +175,10 @@ a:hover {
 .doodle2 img {
   position: absolute;
   display: block;
-  max-width: 13%;
+  max-width: 17%;
   height: auto;
-  margin-top: 23%;
-  margin-left: 80%;
+  margin-top: 14%;
+  margin-left: 62%;
   z-index: 1000;
 }
 
@@ -339,7 +339,7 @@ a:hover {
 
 @media only screen and (max-width: 800px) {
   .logo img {
-    max-width: 40%;
+    max-width: 60%;
   }
 
 }
