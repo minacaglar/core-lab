@@ -92,12 +92,6 @@ a {
   align-items: center;
 }
 
-/* on mobile the image and text stack using flex box! */
-@media only screen and (max-width: 800px) {
-	.about-bio {
-		flex-direction: column;
-	}
-}
 h1 {
 	font-size: 50px;
 	margin: 0;
@@ -164,6 +158,10 @@ h2 {
 
 /* you can add properties here for mobile!!  */
 @media only screen and (max-width: 800px) {
+	.about-bio {
+		flex-direction: column;
+	}
+
 	h1 {
 		font-size: 30px;
   	}
