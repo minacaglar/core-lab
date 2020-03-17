@@ -111,8 +111,58 @@ h2 {
   font-size: 17px;
 }
 
+:root {
+  --base:              #f8fff4;
+  --bg-blend:          multiply;
+  --blur:              0px;
+  --fg-blend:          screen;
+  --foreground:        #ca2d19;
+  --opacity:           1;
+  --spacing:           0px;
+}
 
-.tint {
+figure {
+  background-color:    var(--base);
+  display:             flex;
+  overflow:            hidden;
+  padding:             var(--spacing);
+  position:            relative;
+}
+
+figure img {
+  filter:              grayscale(100%) contrast(1) blur(var(--blur));
+  mix-blend-mode:      var(--bg-blend);
+  object-fit:          cover;
+  opacity:             var(--opacity);
+  position:            relative;
+  width:               100%;
+}
+
+figure::before {
+  background-color:    var(--foreground);
+  bottom:              0;
+  content:             '';
+  height:              100%;
+  left:                0;
+  mix-blend-mode:      var(--fg-blend);
+  position:            absolute;
+  right:               0;
+  top:                 0;
+  width:               100%;
+  z-index:             1;
+  transition: background .3s linear;
+}
+
+figure:hover:before {
+  background: none !important;
+  filter: none !important;
+  background-color: none !important;
+  -webkit-filter: none !important;
+
+
+}
+
+/*.tint {
   position: relative;
   float: left;
 }
@@ -131,7 +181,7 @@ h2 {
 
 .tint:hover:before {
   background: none;
-}
+} */
 
 .container {
   width: 100%;
