@@ -197,6 +197,10 @@ a:hover {
 		font-weight: 400; 
   		font-size: 30px;
   	}
+  	#loader {
+	  width: 100px;
+	  height: 100px;
+	}
 
 }
 
