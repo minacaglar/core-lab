@@ -18,8 +18,25 @@
 	</style>
 </head>
 
-<body>
+<body onload="myFunction()" style="margin:0;">
 
+    <div id="loader"></div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+
+    <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+    
     <nav>
         <div class="topnav">
             <a class="active" style="font-family: lust, serif; font-style: normal; font-weight: 400; font-size: 25px" href="../index.html">Mina Caglar</a>
