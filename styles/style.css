@@ -215,6 +215,10 @@ a:hover {
     padding: 14% 17%;
     font-size: 15px;
   }
+  #loader {
+    width: 100px;
+    height: 100px;
+  }
 
 }
 
