@@ -147,6 +147,10 @@ body {
 
 @media only screen and (max-width: 800px) {
   	
+  	h1 {
+  		font-size: 30px;
+  	}
+
   	a {
   		font-size: 30px;
   	}
