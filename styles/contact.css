@@ -129,6 +129,19 @@ body {
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 
+.star img {
+	position: fixed;
+	display: block;
+ 	max-width: 7%;
+ 	height: auto;
+ 	top: 20%;
+ 	left: 68%;
+	z-index: -10;
+	animation-name: floating;
+    animation-duration: 2.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
 
 @keyframes floating {
     from { transform: translate(0,  0px); }
@@ -140,17 +153,16 @@ body {
 
   	.keepintouch {
 		font-size: 18px;
-		line-height: 22px;
+		line-height: 45px;
 	}
 
   	.contactme {
 		font-size: 18px;
-		line-height: 22px;
+		line-height: 30px;
 	}
 
 	.contactme a {
 		font-size: 25px;
-		line-height: 25px;
 	}
 
 	.footer {
