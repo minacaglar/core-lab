@@ -151,21 +151,14 @@ body {
 		font-size: 20px;
 	}
 
-  	h1 {
-  		font-size: 40px;
-  	}
-
-  	a {
-  		font-size: 20px;
-  	}
-
   	.keepintouch {
 		font-size: 20px;
 	}
 
   	.contactme {
-    	font-size: 20px;
-  	}
+	font-size: 20px;
+	line-height: 40px;
+	}
 
 	.footer {
     	padding: 14% 17%;
