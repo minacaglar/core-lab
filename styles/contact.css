@@ -147,6 +147,10 @@ body {
 
 @media only screen and (max-width: 800px) {
   	
+  	.split {
+		font-size: 20px;
+	}
+
   	h1 {
   		font-size: 20px;
   	}
