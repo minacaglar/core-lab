@@ -1,5 +1,4 @@
 
-
 html {
 	background: #F0E9DC;
 	font-size: 15px;
@@ -145,10 +144,6 @@ a:hover {
   	.split {
 		font-size: 30px;
 	}
-
-  	.active {
-    	font-size: 30px;
-  	}
 	.moon img {
  		max-width: 25%;
  		top: 20vh;
