@@ -137,18 +137,20 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-  	
-  	.split {
-		font-size: 20px;
-	}
 
   	.keepintouch {
-		font-size: 20px;
+		font-size: 18px;
+		line-height: 22px;
 	}
 
   	.contactme {
-	font-size: 20px;
-	line-height: 40px;
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.contactme a {
+		font-size: 25px;
+		line-height: 25px;
 	}
 
 	.footer {
@@ -160,7 +162,9 @@ body {
 		font-weight: 400; 
   		font-size: 30px;
   	}
-
+  	.navbar {
+  		padding: 50%;
+  	}
 }
 
 
