@@ -146,6 +146,11 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+  	
+  	a {
+  		font-size: 30px;
+  	}
+
   	.keepintouch {
 		font-size: 30px;
 	}
