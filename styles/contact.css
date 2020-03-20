@@ -146,17 +146,16 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-  	.split {
+  	.keepintouch {
 		font-size: 30px;
 	}
 
-  	.active {
+  	.contactme {
     	font-size: 30px;
   	}
 
-	.footer a {
+	.footer {
     	padding: 14% 17%;
-    	font-size: 15px;
   	}
   	.active {
   		font-family: lust, serif; 
