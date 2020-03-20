@@ -1,204 +1,175 @@
 
-
 html {
-  background: #f0e9dc;
-  font-size: 15px;
-  font-family: aktiv-grotesk, sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-circle-lg-black-fill.png)
-	  15 15, auto !important;
-  box-sizing: border-box;
+	background: #F0E9DC;
+	font-size: 15px;
+	font-family: aktiv-grotesk, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-circle-lg-black-fill.png) 15 15,auto !important;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  	margin: 0;
+  	padding: 0;
 }
 
-.topnav {
-  overflow: hidden;
-  padding: 10px;
-
-}
-.topnav a {
-  float: left;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 16px;
-}
-.topnav-right {
-  float: right;
-}
-.navbar {
-  text-align: center;
-  padding: 2%;
-  margin: 0px;
-  display: block;
-  background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(236, 176, 148));
-  font-family: lust, serif;
-  font-style: normal;
-  font-weight: 400;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-.navbar a {
-  padding: 14px 16px;
-  color: white !important;
-  text-decoration: none;
-  font-size: 17px;
-}
-a {
-	text-decoration: none;
-	color: black !important;
-	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png)
-		15 15,
-	  auto !important;
-  }
-  a:hover {
-	color: #e88376;
-	background-color: rgba(236, 176, 148);
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
-	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png)
-		15 15,
-	  auto !important;
-  }
-/* THIS IS CONTAINER FOR YOUR ABOUT PAGE */
-.aboutpage {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 50px;
-	box-sizing: border-box;
-}
-
-/* HERE IS WHERE YOUR ABOUT BIO PROPERTIES BEGIN */
-.about-bio {
-  width: 95%;
-  height: 100%;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-/* on mobile the image and text stack using flex box! */
-@media only screen and (max-width: 800px) {
-	.about-bio {
-		flex-direction: column;
-	}
-}
-h1 {
-	font-size: 50px;
-	margin: 0;
-	padding: 0;
-	text-align: left;
-	line-height: 120%;
+.split {
+	display: grid;
+  	grid-gap: 1em;
+  	grid-auto-rows: minmax(100px, auto);
+	
+	font-size: 45px;
+	margin: 0px;
+	padding: 0px;
+	
 	font-family: freight-big-pro, serif;
 	font-weight: 500;
 	font-style: normal;
-	max-width: 500px;
-	margin-left: 65px;
-  }
-
-.portrait img {
-  position: relative;
-  display: block;
-  width: 100%;
-  max-width: 250px;
-  height: auto;
-  z-index: 10;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
 }
 
-/* HERE IS YOUR BOUT "CHAOS" SECTION PROPERTIES BEGIN */
-.about-right {
-	width: 95%;
-	height: auto;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	justify-content: flex-end;
+.nested {
+  	display: grid;
+ 	grid-template-columns: 1fr 1fr;
 }
 
-h2 {
+.nested > div {
+  	padding: 1em;
+  	align-self: start;
+}
+
+.topnav {
+  	overflow: hidden;
+  	padding: 10px;
+}
+
+.topnav a {
+  	float: left;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 16px;
+}
+
+.topnav-right {
+  	float: right;	
+}
+
+.navbar {
+	text-align: center;
+  	padding: 2%;
+  	margin: 0px;
+  	display: block;
+  	background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
+  	font-family: lust, serif;
+	font-style: normal;
+  	font-weight: 400;
+ 	overflow: hidden;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+}
+
+.navbar a {
+  	padding: 14px 16px;
+  	color: white !important;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+
+.topnav a {
+	text-decoration: none;
+	color: black !important;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+.topnav a:hover {
+	color: #E88376;
+	background-color: rgba(236,176,148);
+	-moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+.active {
+	font-family: lust, serif; 
+	font-style: normal; 
+	font-weight: 400; 
+	background-color: #F0E9DC;
+	font-size: 45px; 
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-circle-lg-black-fill.png) 15 15,auto !important; 
+}
+
+.keepintouch {
+	font-family: lust, serif; 
+	font-style: normal; 
+	font-weight: 400; 
 	font-size: 30px;
-	margin: 0;
-	padding: 0;
-	line-height: 120%;
+	writing-mode: vertical-rl; 
+	transform: rotate(180deg); 
+	text-align: right;
+}
+
+.contactme {
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.contactme a {
+	text-decoration: none;
 	font-family: lust, serif;
-	font-style: italic;
 	font-weight: 400;
-	z-index: 2;
-	margin-bottom: -200px;
-	margin-top: 90px;
+	font-style: italic;
+	color: black !important;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 
-.snake {
-  display: block;
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  transform: rotate(90deg);
-  padding: 30px;
+.contactme a:hover {
+	color: #E88376;
+	background-color: rgba(236,176,148);
+	-moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 
-.snake:hover {
-  content: url("../assets/snake-blur.png");
-  display: block;
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  transform: rotate(90deg);
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 20px); }
+    to   { transform: translate(0, -0px); }    
 }
 
-/* you can add properties here for mobile!!  */
 @media only screen and (max-width: 800px) {
-	h1 {
+  	.split {
 		font-size: 30px;
-  	}
-  	.portrait img {
-	  	width: 80%;
+	}
 
-	}
-	.about-right {
-		width: 95%;
-		text-align: center;
-	}
-	h2 {
-		font-size: 22px;
-		text-align: center;
-	}
-	.snake {
-	  	width: 20%;
-	  	display: block;
-  		margin-left: auto;
-  		margin-right: auto;
-  		width: 50%;
-	}
-	.snake:hover {
-	  	width: 20%;
-	  	display: block;
-  		margin-left: auto;
-  		margin-right: auto;
-  		width: 50%;
-	}
+  	.active {
+    	font-size: 30px;
+  	}
+
 	.footer a {
     	padding: 14% 17%;
     	font-size: 15px;
   	}
+  	.active {
+  		font-family: lust, serif; 
+		font-style: normal; 
+		font-weight: 400; 
+  		font-size: 30px;
+  	}
 
 }
+
+
+
+
 
 
 
