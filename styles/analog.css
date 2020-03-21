@@ -111,7 +111,8 @@ h2 {
   font-size: 17px;
 }
 
-:root {
+/* for clarity, these were placed into their respective classes below */
+/* :root {
   --base:              #F0E9DC;
   --bg-blend:          multiply;
   --blur:              0px;
@@ -119,40 +120,45 @@ h2 {
   --foreground:        #d42616;
   --opacity:           1;
   --spacing:           0px;
-}
-
+} */
+/* this is the outside container for the images that sets positioning*/
 figure {
-  background-color:    var(--base);
+  background-color:    #F0E9DC;
   display:             flex;
   overflow:            hidden;
-  padding:             var(--spacing);
+  padding:             0;
   position:            relative;
 }
-
+/* this turns the image grayscale */
 figure img {
-  filter:              grayscale(100%) contrast(1) blur(var(--blur));
-  mix-blend-mode:      var(--bg-blend);
+  filter: grayscale(100%) contrast(1) blur(0);
+  mix-blend-mode:      multiply;
   object-fit:          cover;
-  opacity:             var(--opacity);
+  opacity:             1;
   position:            relative;
   width:               100%;
 }
-
+/* on hover, you need a separate class that targets the img to turn off grayscale */
+figure:hover img{
+  filter: grayscale(0) contrast(1) blur(0);
+}
+/* this turns the image duotone red*/
 figure::before {
-  background-color:    var(--foreground);
+  background-color:    #d42616;
   bottom:              0;
   content:             '';
   height:              100%;
   left:                0;
-  mix-blend-mode:      var(--fg-blend);
+  mix-blend-mode:      screen;
   position:            absolute;
   right:               0;
   top:                 0;
   width:               100%;
   z-index:             1;
-  transition: background .3s linear;
+  transition: all .3s linear;
 }
-
+ 
+/* this takes off the duotone on hover */
 figure:hover:before {
   background: none !important;
   filter: none !important;
@@ -160,27 +166,6 @@ figure:hover:before {
   -webkit-filter: none !important;
   z-index: 10;
 }
-
-/*.tint {
-  position: relative;
-  float: left;
-}
-
-.tint:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(231, 71, 58, 0.5);
-  transition: background .3s linear;
-}
-
-.tint:hover:before {
-  background: none;
-} */
 
 .container {
   width: 100%;
