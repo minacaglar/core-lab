@@ -10,8 +10,6 @@
 
     <link rel="icon" href="../assets/snake.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 	<link href="../styles/analog.css" rel="stylesheet" type="text/css"/>
 	<style>
 	@import url("https://use.typekit.net/rgd8ski.css");
@@ -20,20 +18,39 @@
 
 <body>
     
-    <nav>
+    <!--
+    <header>
+      <label class="hamburger" for="nav-toggle"></label>
+      <input id="nav-toggle" type="checkbox" class="hidden" />
+      <nav>
+        <ul>
+          <li><a href="#">Link One</a></li>
+          <li><a href="#">Link Two</a></li>
+          <li><a href="#">Link Three</a></li>
+          <li><a href="#">Link four</a></li>
+          <li><a href="#">Link five</a></li>
+          <li><a href="#">Link six</a></li>
+          <li><a href="#">Link seven</a></li>
+        </ul>
+      </nav>
+    </header> -->
+
+
+    <header>
         <div class="topnav">
-            <a class="active" style="font-family: lust, serif; font-style: normal; font-weight: 400; font-size: 25px" href="../index.html">Mina Caglar</a>
-            <div class="topnav-right">
-                <a href="#home">analog</a>
-                <a href="../info/digital.html">digital</a>
-                <a href="../info/about.html">about</a>
-                <a href="../info/contact.html">contact</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
+            <a class="mc" style="font-size: 25px" href="../index.html">Mina Caglar</a>
+            <label class="hamburger" for="nav-toggle"></label>
+            <input id="nav-toggle" type="checkbox" class="hidden" />
+            <nav>
+                <ul class="topnav-right">
+                    <li><a href="#home">analog</a></li>
+                    <li><a href="../info/digital.html">digital</a></li>
+                    <li><a href="../info/about.html">about</a></li>
+                    <li><a href="../info/contact.html">contact</a></li>
+                </ul>
+             </nav>
         </div>
-    </nav>
+   </header>
 
     <div class="square">
         <div class="content">
@@ -90,17 +107,5 @@
     </div>
 
 </footer>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-
 </body>
 </html>
