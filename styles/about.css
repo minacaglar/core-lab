@@ -10,9 +10,16 @@ html {
 	  15 15, auto !important;
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
+}
+
+.mc {
+  font-family: lust, serif; 
+  font-style: normal; 
+  font-weight: 400; 
 }
 
 .topnav {
@@ -28,9 +35,11 @@ body {
   text-decoration: none;
   font-size: 16px;
 }
+
 .topnav-right {
   float: right;
 }
+
 .navbar {
   text-align: center;
   padding: 2%;
@@ -45,19 +54,22 @@ body {
   bottom: 0;
   width: 100%;
 }
+
 .navbar a {
   padding: 14px 16px;
   color: white !important;
   text-decoration: none;
   font-size: 17px;
 }
+
 a {
 	text-decoration: none;
 	color: black !important;
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png)
 		15 15,
 	  auto !important;
-  }
+}
+
   a:hover {
 	color: #e88376;
 	background-color: rgba(236, 176, 148);
@@ -67,7 +79,8 @@ a {
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png)
 		15 15,
 	  auto !important;
-  }
+}
+
 /* THIS IS CONTAINER FOR YOUR ABOUT PAGE */
 .aboutpage {
 	position: relative;
@@ -156,6 +169,76 @@ h2 {
   transform: rotate(90deg);
 }
 
+
+header {
+  width: 100%;
+  display: inline-block;
+}
+
+.hamburger {
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+  float: right;
+  cursor: pointer;
+}
+
+.hamburger:before {
+  content: "";
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 4px;
+}
+
+.hamburger:after {
+  content: "";
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 4px;
+  margin-top: 4px;
+  box-shadow: 0px 8px 0 black;
+}
+
+nav {
+  background-color: rgba(236, 176, 148);
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  clear:both;
+  transition: max-height .3s cubic-bezier(0.63, 0, 0.25, 1);;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+
+nav li {
+  display: block;
+  margin: 0;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: .4em;
+}
+
+header input[type="checkbox"]:checked ~ nav {
+  max-height: 200px;
+  border-radius: 25px;
+}
+
+.hidden {
+  position: fixed;
+  top: -100%;
+  left: -100%;
+}
+
 /* you can add properties here for mobile!!  */
 @media only screen and (max-width: 800px) {
 	.about-bio {
@@ -197,6 +280,28 @@ h2 {
   	}
 
 }
+
+@media (min-width: 700px) {
+  .hamburger {
+    display: none;
+  }
+  nav {
+    background: transparent;
+    float: right;
+    border: 0 !important;
+    max-height: none;
+  }
+  nav ul, nav li, nav li a {
+    display: inline-block;
+  }
+  nav a {
+    display: inline-block;
+    padding: 15px 1em;
+  }
+}
+
+
+
 
 
 
