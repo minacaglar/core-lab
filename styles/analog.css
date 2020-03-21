@@ -261,7 +261,6 @@ header a:hover,
 header a:focus,
 header label:hover,
 header label:focus {
-  background-color: rgba(236, 176, 148);
   border-radius: 20px
 }
 
