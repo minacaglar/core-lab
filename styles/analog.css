@@ -180,20 +180,6 @@ a:hover {
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 
-/* for making it responsive, phone screen*/
-@media (max-width: 800px) {
-
-  .container {
-    flex-direction: column;
-  }
-  .footer a {
-    padding: 14% 17%;
-    font-size: 15px;
-  }
-}
-
-
-
 header {
   width: 100%;
   display: inline-block;
@@ -257,11 +243,22 @@ header input[type="checkbox"]:checked ~ nav {
   border-radius: 25px;
 }
 
-header a:hover,
-header a:focus,
-header label:hover,
-header label:focus {
-  border-radius: 20px
+.hidden {
+  position: fixed;
+  top: -100%;
+  left: -100%;
+}
+
+/* for making it responsive, phone screen*/
+@media (max-width: 800px) {
+
+  .container {
+    flex-direction: column;
+  }
+  .footer a {
+    padding: 14% 17%;
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 700px) {
@@ -283,11 +280,7 @@ header label:focus {
   }
 }
 
-.hidden {
-  position: fixed;
-  top: -100%;
-  left: -100%;
-}
+
 
 
 
