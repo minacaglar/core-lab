@@ -11,6 +11,7 @@ html {
 body {
   	margin: 0;
   	padding: 0;
+  	overflow: hidden;
 }
 
 .mc {
@@ -32,7 +33,7 @@ body {
 	font-weight: 500;
 	font-style: normal;
 	
-	transform: translateY(-80%);
+	transform: translateY(-60%);
 }
 
 .nested {
@@ -69,7 +70,7 @@ body {
   	display: block;
   	background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
  	overflow: hidden;
-  	position: fixed;
+  	position: absolute;
   	bottom: 0;
   	width: 100%;
   	z-index: -10;
@@ -135,10 +136,10 @@ body {
 .star img {
 	position: fixed;
 	display: block;
- 	max-width: 7%;
+ 	max-width: 10%;
  	height: auto;
- 	top: 20%;
- 	left: 68%;
+ 	top: -5%;
+ 	left: 82%;
 	z-index: -10;
 	animation-name: floating;
     animation-duration: 2.8s;
@@ -231,6 +232,13 @@ header input[type="checkbox"]:checked ~ nav {
   	.keepintouch {
 		font-size: 18px;
 		line-height: 45px;
+	}
+
+	.star img {
+	 	max-width: 20%;
+	 	height: auto;
+	 	top: -5%;
+	 	left: 95%;
 	}
 
   	.contactme {
