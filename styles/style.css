@@ -79,69 +79,69 @@ a {
     auto !important;
   }
 
-h1 {
-  font-size: 130px;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  line-height: 90%;
-  font-family: lust, serif;
-  font-style: normal;
-  font-weight: 400;
-  text-transform: lowercase;
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+.flexbox {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: pink;
 }
+
+.flex-image {
+  max-width: 500px;
+  flex-basis: 40%;
+  padding: 20px;
+ }
 
 @keyframes floating {
-    from { transform: translateY(60%); }
-    65%  { transform: translate(0, 65%); }
-    to   { transform: translate(0, 60%); }    
+    from { transform: translateY(50%); }
+    65%  { transform: translate(0, 55%); }
+    to   { transform: translate(0, 50%); }    
 }
 
-.glow {
-  position: fixed;
-  max-width: 40%;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  text-align: center
-  height: auto;
-  z-index: -100;
-}
+@media (min-width: 800px) {
 
-.moon {
-  position: fixed;
-  display: fixed;
-  max-width: 15%;
-  height: auto;
-  top: 37%;
-  left: 15%;
-  z-index: -100;
+    h1 {
+      font-size: 850%;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      line-height: 90%;
+      font-family: lust, serif;
+      font-style: normal;
+      font-weight: 400;
+      text-transform: lowercase;
+      animation-name: floating;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      z-index: 10;
+    }
 
-}
+    .glow {
+      position: absolute;
+      max-width: 40%;
+      top: 10%;
+    }
 
-.star {
-  position: fixed;
-  display: fixed;
-  max-width: 15%;
-  height: auto;
-  top: 55%;
-  left: 67%;
-  z-index: -100;
+    .moon {
+      position: absolute;
+      max-width: 15%;
+      top: 38%;
+      left: 15%;
+    }
 
-}
-
-
-a:hover {
-  background-color: rgba(236,176,148);
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
-  border-radius: 100px;
-  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+    .star {
+      position: absolute;
+      max-width: 15%;
+      top: 53%;
+      left: 65%;
+    }
+     
 }
 
 header {
@@ -181,7 +181,7 @@ nav {
   max-height: 0;
   overflow: hidden;
   clear:both;
-  transition: max-height .3s cubic-bezier(0.63, 0, 0.25, 1);;
+  transition: max-height .3s cubic-bezier(0.63, 0, 0.25, 1);
 }
 
 nav ul {
@@ -216,33 +216,34 @@ header input[type="checkbox"]:checked ~ nav {
 /* you can add properties here for mobile!!  */
 @media only screen and (max-width: 800px) {
   h1 {
+    position: absolute;
     font-size: 55px;
     font-family: lust, serif;
     font-style: normal;
     font-weight: 400;
-    padding-top: 15%;
+    padding-top: 10%;
+    text-transform: lowercase;
+    z-index: 10;
     }
+
   .glow {
-    max-width: 60%;
+    max-width: 40%;
     left: 50%;
-    top: 55%;
-    transform: translate(-50%, -50%);
+    top: 60%;
   }
+
   .moon {
-    max-width: 27%;
-    top: 47vh;
-    left: 1vh;
+    max-width: 35%;
+    top: 47%;
+    left: 1%;
   }
+
   .star {
-    max-width: 27%;
-    top: 60vh;
-    left: 45vh;  
- 
+    max-width: 35%;
+    top: 60%;
+    left: 45%;  
   }
-  #loader {
-    width: 50%;
-    height: 50%;
-  }
+
   .footer a {
       padding: 14% 17%;
       font-size: 15px;

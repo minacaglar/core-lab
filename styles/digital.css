@@ -63,7 +63,7 @@ body {
 }
 
 .topnav-right {
-  	float: right;	
+  	float: right;
 }
 
 .navbar {
@@ -106,8 +106,9 @@ a:hover {
 .active {
 	font-family: lust, serif; 
 	font-style: normal; 
+	padding: 0px;
+	margin: 0px;
 	font-weight: 400; 
-	background-color: #F0E9DC;
 	font-size: 45px; 
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-circle-lg-black-fill.png) 15 15,auto !important; 
 }
