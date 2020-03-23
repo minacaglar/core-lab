@@ -311,6 +311,7 @@ header input[type="checkbox"]:checked ~ nav {
   left: 0;
   background: rgba(0,0,0,0.8);
   z-index: 3000;
+  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 
 .lightbox img {
@@ -318,6 +319,8 @@ header input[type="checkbox"]:checked ~ nav {
   max-width: 90%;
   max-height: 80%;
   margin-top: 2%;
+  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-circle-lg-black-fill.png) 15 15,auto !important;
+
 }
 
 .lightbox:target {
@@ -326,6 +329,7 @@ header input[type="checkbox"]:checked ~ nav {
 
   /** Unhide lightbox **/
   display: block;
+  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 
 
