@@ -77,6 +77,7 @@ h2 {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 2000;
 }
 
 .navbar a {
@@ -84,6 +85,16 @@ h2 {
   color: white !important;
   text-decoration: none;
   font-size: 17px;
+  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
+}
+
+.navbar a:hover {
+  color: #E88376;
+  background-color: rgba(236,176,148);
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 
 /* for clarity, these were placed into their respective classes below */
@@ -97,7 +108,7 @@ h2 {
   --spacing:           0px;
 } */
 /* this is the outside container for the images that sets positioning*/
-figure {
+.tint {
   background-color:    #F0E9DC;
   display:             flex;
   overflow:            hidden;
@@ -105,7 +116,7 @@ figure {
   position:            relative;
 }
 /* this turns the image grayscale */
-figure img {
+.tint img {
   filter: grayscale(100%) contrast(1) blur(0);
   mix-blend-mode:      multiply;
   object-fit:          cover;
@@ -114,11 +125,12 @@ figure img {
   width:               100%;
 }
 /* on hover, you need a separate class that targets the img to turn off grayscale */
-figure:hover img{
+.tint:hover img{
   filter: grayscale(0) contrast(1) blur(0);
+  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 /* this turns the image duotone red*/
-figure::before {
+.tint::before {
   background-color:    #d42616;
   bottom:              0;
   content:             '';
@@ -131,10 +143,11 @@ figure::before {
   width:               100%;
   z-index:             1;
   transition: all .3s linear;
+  cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
  
 /* this takes off the duotone on hover */
-figure:hover:before {
+.tint:hover:before {
   background: none !important;
   filter: none !important;
   background-color: none !important;
@@ -161,17 +174,17 @@ figure:hover:before {
   height: auto;
   max-width: 270px;
   align-self: center;
-  padding: 0px;
+  padding: 20%;
   flex-basis: 25%;
 }
 
-a {
+.topnav a {
 	text-decoration: none;
 	color: black !important;
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 
-a:hover {
+.topnav a:hover {
 	color: #E88376;
 	background-color: rgba(236,176,148);
 	-moz-border-radius: 100px;
@@ -278,6 +291,42 @@ header input[type="checkbox"]:checked ~ nav {
     display: inline-block;
     padding: 15px 1em;
   }
+}
+
+.italic { font-style: italic; }
+.small { font-size: 0.8em; }
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 3000;
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
 }
 
 
