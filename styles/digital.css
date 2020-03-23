@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  	margin: 0;
-  	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .mc {
@@ -21,8 +21,8 @@ body {
 
 .split {
 	display: grid;
-  	grid-gap: 1em;
-  	grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
 	
 	font-size: 45px;
 	margin: 0px;
@@ -36,26 +36,26 @@ body {
 }
 
 .nested {
-  	display: grid;
+  display: grid;
  	grid-template-columns: 1fr 1fr;
 }
 
 .nested > div {
-  	padding: 1em;
-  	align-self: start;
+  padding: 1em;
+  align-self: start;
 }
 
 .topnav {
-  	overflow: hidden;
-  	padding: 10px;
+  overflow: hidden;
+  padding: 10px;
 }
 
 .topnav a {
-  	float: left;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
-  	font-size: 16px;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .topnav-right {
@@ -64,24 +64,24 @@ body {
 
 .navbar {
 	text-align: center;
-  	padding: 2%;
-  	margin: 0px;
-  	display: block;
-  	background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
-  	font-family: lust, serif;
+  padding: 2%;
+  margin: 0px;
+  display: block;
+  background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
+  font-family: lust, serif;
 	font-style: normal;
-  	font-weight: 400;
+  font-weight: 400;
  	overflow: hidden;
-  	position: fixed;
-  	bottom: 0;
-  	width: 100%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .navbar a {
-  	padding: 14px 16px;
-  	color: white !important;
-  	text-decoration: none;
-  	font-size: 17px;
+  padding: 14px 16px;
+  color: white !important;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 a {
@@ -94,8 +94,8 @@ a:hover {
 	color: #E88376;
 	background-color: rgba(236,176,148);
 	-moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 
@@ -118,9 +118,9 @@ a:hover {
  	left: 15%;
 	z-index: -10;
 	animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .star img {
@@ -132,9 +132,9 @@ a:hover {
  	left: 70%;
 	z-index: -10;
 	animation-name: floating;
-    animation-duration: 2.8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+  animation-duration: 2.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes floating {
@@ -229,15 +229,15 @@ header input[type="checkbox"]:checked ~ nav {
  		left: 45vh;
 	}
 	.footer a {
-    	padding: 14% 17%;
-    	font-size: 15px;
-  	}
-  	.active {
-  		font-family: lust, serif; 
-		font-style: normal; 
+    padding: 14% 17%;
+    font-size: 15px;
+  }
+  .active {
+  	font-family: lust, serif; 
+		 font-style: normal; 
 		font-weight: 400; 
-  		font-size: 30px;
-  	}
+  	font-size: 30px;
+  }
 
 }
 
