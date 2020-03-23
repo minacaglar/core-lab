@@ -14,6 +14,10 @@ body {
   	overflow: hidden;
 }
 
+.block {
+  height: 130px;
+}
+
 .mc {
   font-family: lust, serif; 
   font-style: normal; 
@@ -157,6 +161,8 @@ body {
 header {
   width: 100%;
   display: inline-block;
+  position: fixed;
+  z-index: 4000;
 }
 
 .hamburger {
