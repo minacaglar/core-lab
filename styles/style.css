@@ -23,13 +23,11 @@ body {
   font-family: lust, serif; 
   font-style: normal; 
   font-weight: 400; 
-  background-color: yellow;
 }
 
 .topnav {
   overflow: hidden;
   padding: 10px;
-  background-color: red;
 }
 
 .topnav a {
@@ -41,11 +39,10 @@ body {
 }
 
 .topnav-right {
-  position: fixed
+  position: fixed;
   top: 20px;
   right: 0;
   margin: 0px;
-  background-color: pink;
   z-index: 1000;
 }
 

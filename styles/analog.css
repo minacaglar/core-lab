@@ -65,8 +65,11 @@ h2 {
 }
 
 .topnav-right {
-  float: right;
-  	
+  position: fixed;
+  top: 20px;
+  right: 0;
+  margin: 0px;
+  z-index: 1000;
 }
 
 .navbar {

@@ -26,8 +26,8 @@ body {
 
 .split {
 	display: grid;
-  	grid-gap: 1em;
-  	grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
 	
 	font-size: 45%;
 	margin: 25%;
@@ -41,43 +41,47 @@ body {
 }
 
 .nested {
-  	display: grid;
+  display: grid;
  	grid-template-columns: 1fr 1fr;
 }
 
 .nested > div {
-  	padding: 1em;
-  	align-self: start;
+  padding: 1em;
+  align-self: start;
 }
 
 .topnav {
-  	overflow: hidden;
-  	padding: 10px;
+  overflow: hidden;
+  padding: 10px;
 }
 
 .topnav a {
-  	float: left;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
-  	font-size: 16px;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .topnav-right {
-  	float: right;	
+  position: fixed;
+  top: 20px;
+  right: 0;
+  margin: 0px;
+  z-index: 1000;
 }
 
 .navbar {
 	text-align: center;
-  	padding: 20%;
-  	margin: 0px;
-  	display: block;
-  	background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
+  padding: 20%;
+  margin: 0px;
+  display: block;
+  background-image: linear-gradient(rgba(255,0,0,0), rgba(236,176,148));
  	overflow: hidden;
-  	position: absolute;
-  	bottom: 0;
-  	width: 100%;
-  	z-index: -10;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: -10;
 }
 
 .topnav a {
@@ -90,8 +94,8 @@ body {
 	color: #E88376;
 	background-color: rgba(236,176,148);
 	-moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 
@@ -132,8 +136,8 @@ body {
 	color: #E88376;
 	background-color: rgba(236,176,148);
 	-moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
 	cursor: url(http://www.xxix.co/_assets/images/cursor/cursor-close-lg-black.png) 15 15,auto !important;
 }
 
@@ -146,9 +150,9 @@ body {
  	left: 82%;
 	z-index: -10;
 	animation-name: floating;
-    animation-duration: 2.8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+  animation-duration: 2.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes floating {
