@@ -112,7 +112,6 @@ h2 {
   background-color:    #F0E9DC;
   display:             flex;
   overflow:            hidden;
-  padding:             0;
   position:            relative;
 }
 /* this turns the image grayscale */
@@ -174,7 +173,7 @@ h2 {
   height: auto;
   max-width: 270px;
   align-self: center;
-  padding: 0%;
+  padding: 15%;
   flex-basis: 25%;
 }
 
