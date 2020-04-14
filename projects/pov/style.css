@@ -1,0 +1,106 @@
+
+body {
+  	background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+body.darkmode {
+  	background-color: black;
+    color: white;
+}
+
+.neon {
+  width: 50%;
+  height: auto;
+  position: fixed;
+  top: 55%;
+  z-index: 100;
+}
+
+.button1 {
+	width: 80%;
+	display: flex;
+	cursor: pointer;
+  z-index: 1000;
+}
+
+.button2 {
+  width: 80%;
+  display: flex;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.button3 {
+  width: 80%;
+  display: flex;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.button4 {
+  width: 80%;
+  display: flex;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.photos {
+  	display: none;
+}
+
+.appear {
+  	display: block;
+  	position: absolute;
+    max-width: 20%;
+}
+
+.night1 {
+    top: 20%;
+    right: 20%;
+}
+
+.night2 {
+    top: 40%;
+    right: 10%;
+}
+
+.night3 {
+    top: 10%;
+    right: 40%;
+}
+
+.night4 {
+    top: 10%;
+    right: 20%;
+}
+
+.sidebar {
+  background-color: red;
+  width: 10%;
+  height: 750px;
+}
+
+.musicbox {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+  z-index: 1000;
+  background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
