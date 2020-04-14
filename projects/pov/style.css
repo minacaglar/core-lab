@@ -17,7 +17,6 @@ body {
   overflow: hidden;
   background-color: none;
   padding: 0px;
-  font-family: "Karla", sans-serif;
 }
 
 body.darkmode {
@@ -36,14 +35,28 @@ body.darkmode {
 .info {
   width: 500px;
   height: 300px;
-  border-radius: 50%;
-  border: 3px solid #ee1d78;
-  background: pink;
   position: fixed;
   top: 17%;
   left: 30%;
   box-shadow: 10px 10px 10px 10px #ee1d78;
-  text-align: center;
+  font-size: 16px;
+  overflow: auto;
+  padding: 10px 80px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #ee1d78;
+
+}
+
+p {
+  text-align: justify;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-family: "GalliardStd-Roman";
+  font-weight: 400;
+  color: var(--color-gray-1);
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
