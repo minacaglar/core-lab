@@ -297,7 +297,7 @@ p {
     position: fixed; 
     width: 250px;
     height: auto;
-    bottom: 0;
+    bottom: -30px;
     top: auto;
   }
 
