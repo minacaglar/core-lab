@@ -35,3 +35,53 @@ clickButton4.addEventListener("click", function(){
   night3Picture.classList.toggle("appear"); 
 })
 
+
+
+$(function(){
+
+	$(".draggable").draggable({
+		stack: ".draggable", 
+		containment: ".container"
+	})
+
+	$(".button1").mouseover( function() {
+		$(".spade").css("display", "block");
+	})
+
+	$(".button1").mouseout( function() {
+		$(".spade").css("display", "none");
+	})
+
+	$(".button2").mouseover( function() {
+		$(".diamond").css("display", "block");
+	})
+
+	$(".button2").mouseout( function() {
+		$(".diamond").css("display", "none");
+	})
+
+	$(".button3").mouseover( function() {
+		$(".heart").css("display", "block");
+	})
+
+	$(".button3").mouseout( function() {
+		$(".heart").css("display", "none");
+	})
+
+	$(".button4").mouseover( function() {
+		$(".").css("display", "block");
+	})
+
+	$(".button4").mouseout( function() {
+		$(".").css("display", "none");
+	})
+
+
+})
+
+
+
+
+
+
+

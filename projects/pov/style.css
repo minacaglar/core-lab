@@ -1,17 +1,32 @@
+* {
+  box-sizing: border-box;
+}
 
 body {
-  	background-color: white;
-    margin: 0px;
-    padding: 0px;
+  margin: 0;
+}
+
+.container {
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: none;
+  padding: 0px;
+  font-family: "Karla", sans-serif;
 }
 
 body.darkmode {
-  	background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .neon {
-  width: 50%;
+  width: 700px;
   height: auto;
   position: fixed;
   top: 55%;
@@ -19,31 +34,42 @@ body.darkmode {
 }
 
 .button1 {
-	width: 80%;
+  position: fixed;
+  width: 140px;
+  height: 140px;
 	display: flex;
 	cursor: pointer;
-  z-index: 1000;
+  top: 0%;
+  z-index: 10;
 }
 
 .button2 {
-  width: 80%;
+  position: fixed;
+  width: 140px;
+  height: 140px;
   display: flex;
   cursor: pointer;
-  z-index: 1000;
+  top: 15%;
+  z-index: 10;
 }
 
 .button3 {
-  width: 80%;
+  position: fixed;
+  width: 140px;
+  height: 140px;
   display: flex;
-  cursor: pointer;
-  z-index: 1000;
+  top: 30%;
+  z-index: 10;
 }
 
 .button4 {
-  width: 80%;
+  position: fixed;
+  width: 140px;
+  height: 140px;
   display: flex;
   cursor: pointer;
-  z-index: 1000;
+  top: 45%;
+  z-index: 10;
 }
 
 .photos {
@@ -57,39 +83,75 @@ body.darkmode {
 }
 
 .night1 {
+    position: fixed;
     top: 20%;
     right: 20%;
 }
 
 .night2 {
+    position: fixed;
     top: 40%;
     right: 10%;
 }
 
 .night3 {
+    position: fixed;
     top: 10%;
     right: 40%;
 }
 
 .night4 {
+    position: fixed;
     top: 10%;
     right: 20%;
 }
 
-.sidebar {
-  background-color: red;
-  width: 10%;
-  height: 750px;
+.musicbox {
+  position: fixed;
+  top: 3%;
+  left: 15%;
+  width: 340px;
+  background: pink;
+  border: 1px solid black;
+  padding: 20px;
 }
 
-.musicbox {
-  width: 80px;
-  height: 40px;
-  display: flex;
-  cursor: pointer;
-  z-index: 1000;
+.sidebar {
+  position: fixed;
   background-color: pink;
+  width: 10%;
+  height: 750px;
+  right: 0px;
 }
+
+.spade {
+  width: 40px;
+  position: absolute;
+  top: 7%;
+  left: 50px;
+  display: none;
+  z-index: -10;
+}
+
+.diamond {
+  width: 40px;
+  position: absolute;
+  top: 21%;
+  left: 50px;
+  display: none;
+  z-index: -10;
+}
+
+.heart {
+  width: 42px;
+  position: absolute;
+  top: 37%;
+  left: 50px;
+  display: none;
+  z-index: -10;
+}
+
+
 
 
 
