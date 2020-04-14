@@ -21,6 +21,7 @@ body {
 
 body.darkmode {
   background-image: url("assets/wavy.jpg");
+  background-repeat: no-repeat;
   color: white;
 }
 
@@ -285,6 +286,11 @@ p {
   .container {
     height: auto;
     overflow: scroll;
+  }
+
+  body.darkmode {
+    background-image: url("assets/wavy2.jpg");
+    background-size: cover;
   }
 
   .neon {
