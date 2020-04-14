@@ -63,10 +63,38 @@ body.darkmode {
   padding: 10px 80px;
 }
 
+.info2 {
+  width: 300px;
+  height: 500px;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  box-shadow: 10px 10px 10px 10px #ee1d78;
+  font-size: 16px;
+  overflow: auto;
+  padding: 5px 20px;
+}
+
+.info3 {
+  width: 400px;
+  height: 250px;
+  position: fixed;
+  top: 40%;
+  left: 60%;
+  box-shadow: 10px 10px 10px 10px #ee1d78;
+  font-size: 16px;
+  overflow: auto;
+  padding: 5px 20px;
+}
+
 h1 {
   font-size: 40px;
   color: #ee1d78;
 
+}
+
+h2 {
+  color: #ee1d78;
 }
 
 p {
