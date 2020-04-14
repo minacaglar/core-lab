@@ -1,0 +1,224 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	bottom: 0; 
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #d8d4c6;
+	padding: 20px;
+	font-family: "Karla", sans-serif;
+}
+
+.container.darkmode {
+	background: linear-gradient(93deg, #f5f4a4, #7ff373, #f3b873, #f373dd);
+	background-size: 800% 800%;
+
+	-webkit-animation: AnimationName 13s ease infinite;
+	-moz-animation: AnimationName 13s ease infinite;
+	animation: AnimationName 13s ease infinite;
+	-o-animation: AnimationName 13s ease infinite;
+
+	@-webkit-keyframes AnimationName {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+	@-moz-keyframes AnimationName {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+	@keyframes AnimationName {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+
+}
+
+.container.darkmode .switch {
+	border: 3px solid white;
+}
+
+.container.darkmode .switch-button {
+	background: white;
+	right: 0;
+	left: auto;
+}
+
+.container.darkmode .title {
+	filter: invert(100%);
+}
+
+.switch {
+	width: 50px;
+	height: 30px;
+	border: 3px solid black;
+	position: relative;
+}
+
+.switch-button {
+	position: absolute; 
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: black;
+}
+
+.title {
+	width: 300px;
+	margin: 0 auto;
+	font-size: 38px;
+}
+
+.information {
+	width: 400px;
+	height: auto;
+	border: 1px solid black;
+	background: #84583b;
+	position: fixed; 
+	top: 20%;
+	left: 35%;
+	padding: 10px;
+	font-size: 32px;
+	text-align: center;
+
+}
+
+.circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: 1px solid black;
+	background: #b2be4f;
+	position: fixed;
+	top: 17%;
+	left: 55%;
+}
+
+.extra-info {
+	color: white;
+}
+
+.hide {
+	display: none;
+}
+
+.cat-snake {
+	width: 400px;
+	position: fixed;
+	top: 20%;
+	left: 40%;
+}
+
+.snake-burgers {
+	width: 400px;
+	position: fixed;
+	top: 12%;
+	left: 20%;
+}
+
+.snake-tv {
+	width: 400px;
+	position: fixed;
+	top: 32%;
+	right: 20%;
+}
+
+.horsegirl {
+	width: 130px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: none;
+}
+
+.playlist {
+	position: fixed;
+	top: 10%;
+	left: 5%;
+	width: 340px;
+	background: #c9f14d;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.hoverme {
+	text-decoration: underline;
+}
+
+.draggable {
+	cursor: move;
+}
+
+@media screen and (max-width: 800px) {
+	.container {
+		height: auto;
+		overflow: scroll;
+	}
+
+	.title {
+		font-size: 25px;
+	}
+
+	.information {
+		position: relative; 
+		top: auto;
+		left: auto;
+		font-size: 32px;
+	}
+
+	.circle {
+		position: relative; 
+		top: auto;
+		left: auto;
+	}
+
+	.cat-snake {
+		position: relative; 
+		top: auto;
+		left: auto;
+	}
+
+	.snake-burgers {
+		position: relative; 
+		top: auto;
+		left: auto;
+	}
+
+	.snake-tv {
+		position: relative; 
+		top: auto;
+		right: auto;
+	}
+
+	.playlist {
+		position: relative; 
+		top: auto;
+		left: auto;
+		padding: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
