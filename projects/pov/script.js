@@ -83,11 +83,11 @@ $(function(){
 	})
 
 	$(".button4").mouseover( function() {
-		$(".").css("display", "block");
+		$(".diamond2").css("display", "block");
 	})
 
 	$(".button4").mouseout( function() {
-		$(".").css("display", "none");
+		$(".diamond2").css("display", "none");
 	})
 
 

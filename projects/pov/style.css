@@ -272,6 +272,15 @@ p {
   z-index: -10;
 }
 
+.diamond2 {
+  width: 40px;
+  position: absolute;
+  top: 51%;
+  left: 50px;
+  display: none;
+  z-index: -10;
+}
+
 
 
 
