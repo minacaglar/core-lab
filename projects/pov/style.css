@@ -299,25 +299,38 @@ p {
     position: relative; 
     top: auto;
     left: auto;
+    width: 70%;
+    height: 500px;
+    margin: 30px;
   }
 
   .info2 {
     position: relative; 
     top: auto;
     left: auto;
+    width: 70%;
+    height: 500px;
+    margin: 30px;
   }
 
   .info3 {
     position: relative; 
     top: auto;
     left: auto;
+    width: 70%;
+    height: 500px;
+    margin: 30px;
   }
 
   .info4 {
     position: relative; 
     top: auto;
     left: auto;
+    width: 70%;
+    height: 500px;
+    margin: 30px;
   }
+
   .button1 {
     position: fixed;
     width: 140px;
