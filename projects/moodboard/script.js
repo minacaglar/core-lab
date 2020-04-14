@@ -32,7 +32,7 @@ $(function(){
 			opacity: 0.5,
 			width: "500px",
 			height: "500px",
-			backgroundColor: "red"
+			backgroundColor: "purple"
 
 		})
 	})
