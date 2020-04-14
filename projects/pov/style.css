@@ -20,7 +20,7 @@ body {
 }
 
 body.darkmode {
-  background-color: black;
+  background-image: url("assets/wavy.jpg");
   color: white;
 }
 
@@ -126,37 +126,62 @@ p {
 }
 
 .photos {
-  	display: none;
+  display: none;
 }
 
 .appear {
-  	display: block;
-  	position: absolute;
-    max-width: 20%;
+  display: block;
+  position: absolute;
+  max-width: 20%;
 }
 
 .night1 {
-    position: fixed;
-    top: 20%;
-    right: 20%;
+  position: fixed;
+  top: 20%;
+  right: 20%;
 }
 
 .night2 {
-    position: fixed;
-    top: 40%;
-    right: 10%;
+  position: fixed;
+  top: 40%;
+  right: 10%;
 }
 
 .night3 {
-    position: fixed;
-    top: 10%;
-    right: 40%;
+  position: fixed;
+  top: 10%;
+  right: 40%;
 }
 
 .night4 {
-    position: fixed;
-    top: 10%;
-    right: 20%;
+  position: fixed;
+  top: 10%;
+  right: 20%;
+  max-width: 10%;
+}
+
+.night5 {
+  position: fixed;
+  top: 20%;
+  right: 20%;
+}
+
+.night6 {
+  position: fixed;
+  top: 40%;
+  right: 10%;
+}
+
+.night7 {
+  position: fixed;
+  top: 10%;
+  right: 40%;
+}
+
+.night8 {
+  position: fixed;
+  top: 10%;
+  right: 20%;
 }
 
 .musicbox {
