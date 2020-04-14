@@ -445,37 +445,30 @@ p {
   .spade {
     width: 40px;
     position: absolute;
-    top: 7%;
-    left: 50px;
+    top: 37%;
+    left: 42px;
     display: none;
-    z-index: -10;
   }
 
   .diamond {
     width: 40px;
     position: absolute;
-    top: 21%;
-    left: 50px;
-    display: none;
-    z-index: -10;
+    top: 37%;
+    left: 130px;
   }
 
   .heart {
     width: 42px;
     position: absolute;
-    top: 37%;
-    left: 50px;
-    display: none;
-    z-index: -10;
+    top: 42%;
+    left: 220px;
   }
 
   .diamond2 {
     width: 40px;
     position: absolute;
-    top: 51%;
-    left: 50px;
-    display: none;
-    z-index: -10;
+    top: 37%;
+    left: 310px;
   }
 }
 
