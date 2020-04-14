@@ -348,8 +348,8 @@ p {
 
   .button1 {
     position: fixed;
-    width: 120px;
-    height: 120px;
+    width: 105px;
+    height: 105px;
     display: flex;
     cursor: pointer;
     top: 0;
@@ -360,8 +360,8 @@ p {
 
   .button2 {
     position: fixed;
-    width: 120px;
-    height: 120px;
+    width: 105px;
+    height: 105px;
     display: flex;
     cursor: pointer;
     top: 0;
@@ -372,8 +372,8 @@ p {
 
   .button3 {
     position: fixed;
-    width: 120px;
-    height: 120px;
+    width: 105px;
+    height: 105px;
     display: flex;
     top: 0;
     left: 180px;
@@ -383,8 +383,8 @@ p {
 
   .button4 {
     position: fixed;
-    width: 120px;
-    height: 120px;
+    width: 105px;
+    height: 105px;
     display: flex;
     cursor: pointer;
     top: 0;
@@ -449,32 +449,32 @@ p {
   }
 
   .spade {
-    width: 40px;
-    position: absolute;
-    top: 37%;
-    left: 42px;
+    width: 34px;
+    position: fixed;
+    top: 5%;
+    left: 37px;
     display: none;
   }
 
   .diamond {
-    width: 40px;
-    position: absolute;
-    top: 37%;
-    left: 130px;
+    width: 30px;
+    position: fixed;
+    top: 5%;
+    left: 128px;
   }
 
   .heart {
-    width: 42px;
-    position: absolute;
-    top: 42%;
-    left: 220px;
+    width: 36px;
+    position: fixed;
+    top: 5%;
+    left: 217px;
   }
 
   .diamond2 {
-    width: 40px;
-    position: absolute;
-    top: 37%;
-    left: 310px;
+    width: 30px;
+    position: fixed;
+    top: 5%;
+    left: 308px;
   }
 }
 
