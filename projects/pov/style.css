@@ -33,6 +33,27 @@ body.darkmode {
   z-index: 100;
 }
 
+.info {
+  width: 500px;
+  height: 300px;
+  border-radius: 50%;
+  border: 3px solid #ee1d78;
+  background: pink;
+  position: fixed;
+  top: 17%;
+  left: 30%;
+  box-shadow: 10px 10px 10px 10px #ee1d78;
+  text-align: center;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .modal {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.5);  
+  }
+}
+
 .button1 {
   position: fixed;
   width: 140px;
@@ -118,7 +139,6 @@ body.darkmode {
 
 .sidebar {
   position: fixed;
-  background-color: pink;
   width: 10%;
   height: 750px;
   right: 0px;
