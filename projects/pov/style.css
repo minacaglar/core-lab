@@ -281,6 +281,179 @@ p {
   z-index: -10;
 }
 
+@media screen and (max-width: 800px) {
+  .container {
+    height: auto;
+    overflow: scroll;
+  }
+
+  .neon {
+    position: relative; 
+    top: auto;
+    left: auto; 
+  }
+
+  .info {
+    position: relative; 
+    top: auto;
+    left: auto;
+  }
+
+  .info2 {
+    position: relative; 
+    top: auto;
+    left: auto;
+  }
+
+  .info3 {
+    position: relative; 
+    top: auto;
+    left: auto;
+  }
+
+  .info4 {
+    position: relative; 
+    top: auto;
+    left: auto;
+  }
+  .button1 {
+    position: fixed;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    cursor: pointer;
+    top: 0%;
+    z-index: 10;
+  }
+
+  .button2 {
+    position: fixed;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    cursor: pointer;
+    top: 15%;
+    z-index: 10;
+  }
+
+  .button3 {
+    position: fixed;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    top: 30%;
+    z-index: 10;
+  }
+
+  .button4 {
+    position: fixed;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    cursor: pointer;
+    top: 45%;
+    z-index: 10;
+  }
+
+  .night1 {
+    position: relative; 
+    top: auto;
+    left: auto;
+  }
+
+  .night2 {
+    position: relative; 
+    top: auto;
+    left: auto;
+    right: 10%;
+  }
+
+  .night3 {
+    position: relative; 
+    top: auto;
+    left: auto;
+  }
+
+  .night4 {
+    position: relative; 
+    top: auto;
+    left: auto;
+  }
+
+  .night5 {
+    position: relative; 
+    top: auto;
+    left: auto;
+  }
+
+  .night6 {
+    position: relative; 
+    top: auto;
+    left: auto;
+  }
+
+  .night7 {
+    position: relative; 
+    top: auto;
+    left: auto;
+  }
+
+  .night8 {
+    position: relative; 
+    top: auto;
+    left: auto;
+  }
+
+  .musicbox {
+    position: relative; 
+    top: auto;
+    left: auto;
+  }
+
+  .sidebar {
+    position: fixed;
+    width: 10%;
+    height: 750px;
+    right: 0px;
+  }
+
+  .spade {
+    width: 40px;
+    position: absolute;
+    top: 7%;
+    left: 50px;
+    display: none;
+    z-index: -10;
+  }
+
+  .diamond {
+    width: 40px;
+    position: absolute;
+    top: 21%;
+    left: 50px;
+    display: none;
+    z-index: -10;
+  }
+
+  .heart {
+    width: 42px;
+    position: absolute;
+    top: 37%;
+    left: 50px;
+    display: none;
+    z-index: -10;
+  }
+
+  .diamond2 {
+    width: 40px;
+    position: absolute;
+    top: 51%;
+    left: 50px;
+    display: none;
+    z-index: -10;
+  }
+}
+
 
 
 
