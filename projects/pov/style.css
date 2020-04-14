@@ -454,6 +454,7 @@ p {
     top: 5%;
     left: 37px;
     display: none;
+    z-index: 5;
   }
 
   .diamond {
@@ -461,6 +462,7 @@ p {
     position: fixed;
     top: 5%;
     left: 128px;
+    z-index: 5;
   }
 
   .heart {
@@ -468,6 +470,7 @@ p {
     position: fixed;
     top: 5%;
     left: 217px;
+    z-index: 5;
   }
 
   .diamond2 {
@@ -475,6 +478,7 @@ p {
     position: fixed;
     top: 5%;
     left: 308px;
+    z-index: 5;
   }
 }
 
