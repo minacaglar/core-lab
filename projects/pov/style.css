@@ -51,6 +51,10 @@ body.darkmode {
   z-index: 100;
 }
 
+.disappear {
+  display: none;
+}
+
 .info {
   width: 500px;
   height: 300px;
@@ -76,10 +80,22 @@ body.darkmode {
 }
 
 .info3 {
+  width: 300px;
+  height: 350px;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  box-shadow: 10px 10px 10px 10px #ee1d78;
+  font-size: 16px;
+  overflow: auto;
+  padding: 5px 20px;
+}
+
+.info4 {
   width: 400px;
   height: 250px;
   position: fixed;
-  top: 40%;
+  top: 2%;
   left: 60%;
   box-shadow: 10px 10px 10px 10px #ee1d78;
   font-size: 16px;

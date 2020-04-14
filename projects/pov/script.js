@@ -37,10 +37,16 @@ clickButton3.addEventListener("click", function(){
 })
 
 var clickButton4 = document.querySelector(".button4");
-var night3Picture = document.querySelector(".night3");
+var info = document.querySelector(".info");
+var info2 = document.querySelector(".info2");
+var info3 = document.querySelector(".info3");
+var info4 = document.querySelector(".info4");
 
 clickButton4.addEventListener("click", function(){
-  night3Picture.classList.toggle("appear"); 
+  info.classList.toggle("disappear");
+  info2.classList.toggle("disappear");
+  info3.classList.toggle("disappear");
+  info4.classList.toggle("disappear");
 })
 
 
