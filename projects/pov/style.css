@@ -5,7 +5,6 @@
 body {
   margin: 0;
   cursor: url("assets/fairy2.png"), auto !important;
-
 }
 
 .container {
@@ -45,16 +44,69 @@ body.darkmode {
   background: #ee1d78;  
 }
 
+a {
+  font-size: 34px;
+  color: #ee1d78;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  line-height: 44px;
+}
+
+a:hover {
+	color: white;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+  	-moz-animation: glow 1s ease-in-out infinite alternate;
+  	animation: glow 1s ease-in-out infinite alternate;
+  	cursor: url("assets/fairy2.png"), auto !important;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 0px #fff, 0 0 3px #fff, 0 0 5px #ee1d78, 0 0 8px #ee1d78, 0 0 23px #ee1d78, 0 0 13px #ee1d78, 0 0 15px #ee1d78;
+  }
+  
+  to {
+    text-shadow: 0 0 2px #fff, 0 0 7px #ff4da6, 0 0 10px #ff4da6, 0 0 12px #ff4da6, 0 0 15px #ff4da6, 0 0 17px #ff4da6, 0 0 20px #ff4da6;
+  }
+}
+
+h2 {
+  color: #ee1d78;
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+	color: #ee1d78;
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.85rem;
+  font-family: Sofia Pro;
+  font-weight: 300;
+  color: var(--color-gray-1);
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .modal {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.5);  
+  }
+}
+
+.disappear {
+  display: none;
+}
+
 .neon {
   width: 700px;
   height: auto;
   position: fixed;
   top: 55%;
   z-index: 100;
-}
-
-.disappear {
-  display: none;
 }
 
 .info {
@@ -105,63 +157,11 @@ body.darkmode {
   padding: 5px 20px;
 }
 
-a {
-  font-size: 34px;
-  color: #ee1d78;
-  text-decoration: none;
-  font-family: 'Playfair Display', serif;
-  line-height: 44px;
-}
-
-a:hover {
-	color: white;
-	-webkit-animation: glow 1s ease-in-out infinite alternate;
-  	-moz-animation: glow 1s ease-in-out infinite alternate;
-  	animation: glow 1s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 0px #fff, 0 0 3px #fff, 0 0 5px #ee1d78, 0 0 8px #ee1d78, 0 0 23px #ee1d78, 0 0 13px #ee1d78, 0 0 15px #ee1d78;
-  }
-  
-  to {
-    text-shadow: 0 0 2px #fff, 0 0 7px #ff4da6, 0 0 10px #ff4da6, 0 0 12px #ff4da6, 0 0 15px #ff4da6, 0 0 17px #ff4da6, 0 0 20px #ff4da6;
-  }
-}
-
-h2 {
-  color: #ee1d78;
-  font-family: 'Playfair Display', serif;
-}
-
-h3 {
-	color: #ee1d78;
-  font-family: 'Playfair Display', serif;
-}
-
-p {
-  text-align: justify;
-  font-size: 16px;
-  line-height: 1.85rem;
-  font-family: Sofia Pro;
-  font-weight: 300;
-  color: var(--color-gray-1);
-}
-
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  .modal {
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, 0.5);  
-  }
-}
-
 .button1 {
   position: fixed;
   width: 140px;
   height: 140px;
-	display: flex;
+display: flex;
   top: 0%;
   z-index: 10;
 }
@@ -277,11 +277,11 @@ p {
 .musicbox {
   position: fixed;
   top: 3%;
-  left: 15%;
+  left: 17%;
   width: 340px;
-  background: pink;
-  border: 1px solid black;
-  padding: 20px;
+  background: white;
+  padding: 30px;
+  box-shadow: 10px 10px 10px 10px #ee1d78;
 }
 
 .sidebar {
