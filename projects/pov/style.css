@@ -453,6 +453,7 @@ display: flex;
     margin: 30px;
     margin-left: auto;
   	margin-right: auto;
+  	max-width: 300px;
   }
 
   .night2 {
@@ -498,6 +499,7 @@ display: flex;
     margin: 30px;
     margin-left: auto;
   	margin-right: auto;
+  	max-width: 300px;
   }
 
   .night10 {
@@ -507,6 +509,7 @@ display: flex;
     margin: 30px;
     margin-left: auto;
   	margin-right: auto;
+  	max-width: 300px;
   }
 
   .night11 {
@@ -525,6 +528,7 @@ display: flex;
     margin: 30px;
     margin-left: auto;
   	margin-right: auto;
+  	max-width: 300px;
   }
 
   .night13 {
@@ -534,6 +538,7 @@ display: flex;
     margin: 30px;
     margin-left: auto;
   	margin-right: auto;
+  	max-width: 300px;
   }
 
   .night14 {
@@ -543,6 +548,7 @@ display: flex;
     margin: 30px;
     margin-left: auto;
   	margin-right: auto;
+  	max-width: 300px;
   }
 
   .musicbox {
