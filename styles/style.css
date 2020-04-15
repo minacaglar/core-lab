@@ -76,7 +76,7 @@ a {
     auto !important;
   }
 
-  a:hover {
+a:hover {
   color: #e88376;
   background-color: rgba(236, 176, 148);
   -moz-border-radius: 100px;
