@@ -24,7 +24,6 @@ body {
 body.darkmode {
   background-image: url("assets/wavy.jpg");
   background-repeat: no-repeat;
-  color: white;
 }
 
 ::-webkit-scrollbar {
@@ -141,11 +140,6 @@ h3 {
   font-family: 'Playfair Display', serif;
 }
 
-.indent {
-  text-indent: 50px;
-}
-
-
 p {
   text-align: justify;
   font-size: 16px;
@@ -206,56 +200,78 @@ p {
 .appear {
   display: block;
   position: absolute;
-  max-width: 20%;
+  max-width: 300px;
 }
 
 .night1 {
   position: fixed;
-  top: 20%;
-  right: 20%;
+  top: 2%;
+  left: 10%;
+  max-width: 250px;
 }
 
 .night2 {
   position: fixed;
-  top: 40%;
-  right: 10%;
-}
-
-.night3 {
-  position: fixed;
-  top: 10%;
-  right: 40%;
-}
-
-.night4 {
-  position: fixed;
-  top: 10%;
-  right: 20%;
-  max-width: 10%;
+  top: 45%;
+  left: 25%;
 }
 
 .night5 {
   position: fixed;
   top: 20%;
-  right: 20%;
+  left: 5%;
 }
 
 .night6 {
   position: fixed;
   top: 40%;
-  right: 10%;
+  left: 45%;
 }
 
 .night7 {
   position: fixed;
-  top: 10%;
-  right: 40%;
+  top: 2%;
+  left: 40%;
 }
 
 .night8 {
   position: fixed;
+  top: 5%;
+  left: 65%;
+  max-width: 350px;
+}
+
+.night10 {
+  position: fixed;
+  top: 50%;
+  left: 75%;
+  max-width: 240px;
+}
+
+.night11 {
+  position: fixed;
   top: 10%;
-  right: 20%;
+  left: 23%;
+}
+
+.night12 {
+  position: fixed;
+  top: 30%;
+  left: 60%;
+  max-width: 340px;
+}
+
+.night13 {
+  position: fixed;
+  top: 50%;
+  left: 1%;
+  max-width: 200px;
+}
+
+.night14 {
+  position: fixed;
+  top: 71%;
+  left: 55%;
 }
 
 .musicbox {
@@ -346,6 +362,8 @@ p {
     width: 70%;
     height: 500px;
     margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
   }
 
   .info2 {
@@ -355,6 +373,8 @@ p {
     width: 70%;
     height: 500px;
     margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
   }
 
   .info3 {
@@ -364,6 +384,8 @@ p {
     width: 70%;
     height: 500px;
     margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
   }
 
   .info4 {
@@ -373,6 +395,8 @@ p {
     width: 70%;
     height: 500px;
     margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
   }
 
   .button1 {
@@ -426,55 +450,108 @@ p {
     position: relative; 
     top: auto;
     left: auto;
+    margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
   }
 
   .night2 {
     position: relative; 
     top: auto;
     left: auto;
-    right: 10%;
-  }
-
-  .night3 {
-    position: relative; 
-    top: auto;
-    left: auto;
-  }
-
-  .night4 {
-    position: relative; 
-    top: auto;
-    left: auto;
+    margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
   }
 
   .night5 {
     position: relative; 
     top: auto;
     left: auto;
+    margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
   }
 
   .night6 {
     position: relative; 
     top: auto;
     left: auto;
+    margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
   }
 
   .night7 {
     position: relative; 
     top: auto;
     left: auto;
+    margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
   }
 
   .night8 {
     position: relative; 
     top: auto;
     left: auto;
+    margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
+  }
+
+  .night10 {
+    position: relative; 
+    top: auto;
+    left: auto;
+    margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
+  }
+
+  .night11 {
+    position: relative; 
+    top: auto;
+    left: auto;
+    margin: 30px;
+   	margin-left: auto;
+  	margin-right: auto;
+  }
+
+  .night12 {
+    position: relative; 
+    top: auto;
+    left: auto;
+    margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
+  }
+
+  .night13 {
+    position: relative; 
+    top: auto;
+    left: auto;
+    margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
+  }
+
+  .night14 {
+    position: relative; 
+    top: auto;
+    left: auto;
+    margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
   }
 
   .musicbox {
     position: relative; 
     top: auto;
     left: auto;
+    margin: 30px;
+    margin-left: auto;
+  	margin-right: auto;
   }
 
   .spade {

@@ -10,22 +10,28 @@ clickButton1.addEventListener("click", function(){
 var clickButton2 = document.querySelector(".button2");
 var night1Picture = document.querySelector(".night1");
 var night2Picture = document.querySelector(".night2");
-var night3Picture = document.querySelector(".night3");
-var night4Picture = document.querySelector(".night4");
 var night5Picture = document.querySelector(".night5");
 var night6Picture = document.querySelector(".night6");
 var night7Picture = document.querySelector(".night7");
 var night8Picture = document.querySelector(".night8");
+var night10Picture = document.querySelector(".night10");
+var night11Picture = document.querySelector(".night11");
+var night12Picture = document.querySelector(".night12");
+var night13Picture = document.querySelector(".night13");
+var night14Picture = document.querySelector(".night14");
 
 clickButton2.addEventListener("click", function(){
   night1Picture.classList.toggle("appear");
   night2Picture.classList.toggle("appear"); 
-  night3Picture.classList.toggle("appear"); 
-  night4Picture.classList.toggle("appear"); 
   night5Picture.classList.toggle("appear");
   night6Picture.classList.toggle("appear");
   night7Picture.classList.toggle("appear"); 
-  night8Picture.classList.toggle("appear"); 
+  night8Picture.classList.toggle("appear");
+  night10Picture.classList.toggle("appear"); 
+  night11Picture.classList.toggle("appear"); 
+  night12Picture.classList.toggle("appear"); 
+  night13Picture.classList.toggle("appear");
+  night14Picture.classList.toggle("appear"); 
 })
 
 
