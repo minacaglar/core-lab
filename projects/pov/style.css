@@ -107,10 +107,13 @@ body.darkmode {
 }
 
 a {
-  font-size: 40px;
+  font-size: 34px;
   color: #ee1d78;
   text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  line-height: 44px;
 }
+
 a:hover {
 	color: white;
 	-webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -120,29 +123,35 @@ a:hover {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px #e60073, 0 0 10px #e60073, 0 0 25px #e60073, 0 0 15px #e60073, 0 0 17px #e60073;
+    text-shadow: 0 0 0px #fff, 0 0 3px #fff, 0 0 5px #ee1d78, 0 0 8px #ee1d78, 0 0 23px #ee1d78, 0 0 13px #ee1d78, 0 0 15px #ee1d78;
   }
   
   to {
-    text-shadow: 0 0 5px #fff, 0 0 7px #ff4da6, 0 0 10px #ff4da6, 0 0 12px #ff4da6, 0 0 15px #ff4da6, 0 0 17px #ff4da6, 0 0 20px #ff4da6;
+    text-shadow: 0 0 2px #fff, 0 0 7px #ff4da6, 0 0 10px #ff4da6, 0 0 12px #ff4da6, 0 0 15px #ff4da6, 0 0 17px #ff4da6, 0 0 20px #ff4da6;
   }
 }
 
 h2 {
   color: #ee1d78;
+  font-family: 'Playfair Display', serif;
 }
 
 h3 {
 	color: #ee1d78;
+  font-family: 'Playfair Display', serif;
+}
+
+.indent {
+  text-indent: 50px;
 }
 
 
 p {
   text-align: justify;
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  font-family: "GalliardStd-Roman";
-  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.85rem;
+  font-family: Sofia Pro;
+  font-weight: 300;
   color: var(--color-gray-1);
 }
 
