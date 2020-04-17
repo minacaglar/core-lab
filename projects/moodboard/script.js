@@ -13,12 +13,20 @@ $(function(){
 
 	// photo appears on hover
 	$(".hoverme").mouseover( function() {
-		$(".horsegirl").css("display", "block");
+		$(".salamanca").css("display", "block");
 	})
 
 	// photo dissapears on mouse out
 	$(".hoverme").mouseout( function() {
-		$(".horsegirl").css("display", "none");
+		$(".salamanca").css("display", "none");
+	})
+
+	$(".hoverme2").mouseover( function() {
+		$(".hector").css("display", "block");
+	})
+
+	$(".hoverme2").mouseout( function() {
+		$(".hector").css("display", "none");
 	})
 
 	// display hidden text

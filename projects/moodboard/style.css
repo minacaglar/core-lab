@@ -59,7 +59,39 @@ body {
 }
 
 .container.darkmode .title {
-	filter: invert(100%);
+	
+}
+
+.container.darkmode .information{
+	box-shadow: 11px 11px 0px 0px #B699D8;
+}
+.container.darkmode .playlist{
+	box-shadow: 11px 11px 0px 0px #B699D8;
+}
+.container.darkmode .circle{
+	box-shadow: 11px 11px 0px 0px #B699D8;
+}
+
+.container.darkmode .cat-snake{
+	box-shadow: 11px 11px 0px 0px #B699D8;
+}
+.container.darkmode .snake-burgers{
+	box-shadow: 11px 11px 0px 0px #B699D8;
+}
+.container.darkmode .snake-tv{
+	box-shadow: 11px 11px 0px 0px #B699D8;
+}
+.container.darkmode .tiger{
+	box-shadow: 11px 11px 0px 0px #B699D8;
+}
+.container.darkmode .tiger2{
+	box-shadow: 11px 11px 0px 0px #B699D8;
+}
+.container.darkmode .doggo{
+	box-shadow: 11px 11px 0px 0px #B699D8;
+}
+.container.darkmode .doggo2{
+	box-shadow: 11px 11px 0px 0px #B699D8;
 }
 
 .switch {
@@ -81,32 +113,36 @@ body {
 .title {
 	width: 300px;
 	margin: 0 auto;
-	font-size: 38px;
+	font-size: 55px;
+	font-family: le murmure;
+	top: -8%;
 }
 
 .information {
 	width: 400px;
 	height: auto;
-	border: 1px solid black;
+	border: 2px solid black;
+	box-shadow: 11px 11px 0px 0px #c9f14d;
 	background: #84583b;
 	position: fixed; 
-	top: 20%;
+	top: 30%;
 	left: 35%;
-	padding: 10px;
-	font-size: 32px;
-	text-align: center;
+	padding: 10px 40px 10px 40px;
+	font-size: 26px;
+	text-align: justify;
 
 }
 
 .circle {
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
-	border: 1px solid black;
+	border: 2px solid black;
+	box-shadow: 11px 11px 0px 0px #c9f14d;
 	background: #b2be4f;
 	position: fixed;
-	top: 17%;
-	left: 55%;
+	top: 38%;
+	left: 65%;
 }
 
 .extra-info {
@@ -118,45 +154,99 @@ body {
 }
 
 .cat-snake {
-	width: 400px;
+	width: 300px;
 	position: fixed;
-	top: 20%;
-	left: 40%;
+	top: 10%;
+	left: 70%;
+	border: 2px solid black;
+	box-shadow: 11px 11px 0px 0px #c9f14d;
 }
 
 .snake-burgers {
-	width: 400px;
+	width: 320px;
 	position: fixed;
-	top: 12%;
-	left: 20%;
+	top: 45%;
+	left: 28%;
+	border: 2px solid black;
+	box-shadow: 11px 11px 0px 0px #c9f14d;
 }
 
 .snake-tv {
-	width: 400px;
+	width: 250px;
 	position: fixed;
-	top: 32%;
-	right: 20%;
+	top: 60%;
+	left: 55%;
+	border: 2px solid black;
+	box-shadow: 11px 11px 0px 0px #c9f14d;
 }
 
-.horsegirl {
+.tiger {
+	width: 300px;
+	position: fixed;
+	top: 50%;
+	left: 5%;
+	box-shadow: 11px 11px 0px 0px #c9f14d;
+}
+
+.tiger2 {
+	width: 300px;
+	position: fixed;
+	top: 50%;
+	left: 5%;
+	border: 2px solid black;
+	box-shadow: 11px 11px 0px 0px #c9f14d;
+}
+
+.doggo {
+	width: 270px;
+	position: fixed;
+	top: 45%;
+	left: 75%;
+	border: 2px solid black;
+	box-shadow: 11px 11px 0px 0px #c9f14d;
+}
+
+.doggo2 {
+	width: 270px;
+	position: fixed;
+	top: 45%;
+	left: 75%;
+	border: 2px solid black;
+	box-shadow: 11px 11px 0px 0px #c9f14d;
+}
+
+.salamanca {
 	width: 130px;
 	position: absolute;
-	top: 10px;
-	left: 10px;
+	top: 20px;
+	left: 93px;
+	display: none;
+}
+
+.hector {
+	width: 130px;
+	position: absolute;
+	top: 180px;
+	left: 85px;
 	display: none;
 }
 
 .playlist {
 	position: fixed;
-	top: 10%;
-	left: 5%;
+	top: 3%;
+	left: 10%;
 	width: 340px;
-	background: #c9f14d;
-	border: 1px solid black;
+	background: #CEC5D8;
+	border: 2px solid black;
+	box-shadow: 11px 11px 0px 0px #c9f14d;
 	padding: 20px;
 }
 
 .hoverme {
+	text-decoration: underline;
+}
+
+.hoverme2 {
 	text-decoration: underline;
 }
 
