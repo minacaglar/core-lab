@@ -161,7 +161,7 @@ p {
   position: fixed;
   width: 140px;
   height: 140px;
-display: flex;
+  display: flex;
   top: 0%;
   z-index: 10;
 }

@@ -45,4 +45,27 @@ $(function(){
 		})
 	})
 
+	
+
+
 })
+
+function change() {
+	   var img1 = "assets/doggo.png",
+	       img2 = "assets/doggo2.png";
+	   var imgElement = document.getElementById('test');
+	   
+	   imgElement.src = (imgElement.src === img1)? img2 : img1;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
