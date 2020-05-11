@@ -770,11 +770,11 @@ body {
   	margin-right: auto;
 }
 
-.delivery {
-	width: 170px;
+.location {
+	width: 90px;
 	position: absolute;
-	bottom: 12px;
-	right: 15px;
+	bottom: 17px;
+	right: 45px;
 }
 
 .doner {
@@ -798,11 +798,11 @@ body {
 	right: 30px;
 }
 
-.location {
-	width: 90px;
+.delivery {
+	width: 170px;
 	position: absolute;
-	bottom: 17px;
-	right: 45px;
+	bottom: 12px;
+	right: 15px;
 }
 
 .step1 {
