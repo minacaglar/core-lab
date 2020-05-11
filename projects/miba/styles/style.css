@@ -1016,12 +1016,12 @@ body {
 
 .miba2 {
   	position: fixed; 
-    width: 250px;
+    width: 350px;
     height: auto;
-    top: 0px;
+    top: 15%;
     left: 0px;
-    font-size: 50px;
-    line-height: 40px;
+    font-size: 75px;
+    line-height: 60px;
   }
 
   .text {
@@ -1041,21 +1041,21 @@ body {
 }
 
 .box1 {
-	width: 300px;
+	width: 310px;
 	height: 40px;
 	position: absolute;
 	top: 55px;
 }
 
 .box2 {
-	width: 300px;
+	width: 310px;
 	height: 40px;
 	position: absolute;
 	top: 115px;
 }
 
 .signin {
-	width: 300px;
+	width: 310px;
 	height: 30%;
 	position: absolute;
 	top: 40%;
