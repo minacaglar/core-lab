@@ -1044,21 +1044,21 @@ body {
 }
 
 .box1 {
-	width: 330px;
+	width: 300px;
 	height: 40px;
 	position: absolute;
 	top: 25%;
 }
 
 .box2 {
-	width: 330px;
+	width: 300px;
 	height: 40px;
 	position: absolute;
 	top: 53%;
 }
 
 .signin {
-	width: 330px;
+	width: 300px;
 	height: 30%;
 	position: absolute;
 	top: 40%;
