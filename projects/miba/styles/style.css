@@ -1028,35 +1028,37 @@ body {
   }
 
   .text {
-	font-size: 15px;
-	top: 30px;
-	left: 10px;
+	font-size: 16px;
+	line-height: 17px;
+	top: 15px;
+	left: 0px;
 	position: absolute;
+	text-align: center;
 }
 
 .text2 {
 	font-size: 16px;
 	bottom: 30px;
-	left: 75px;
+	left: 70px;
 	position: absolute;
 }
 
 .box1 {
-	width: 350px;
+	width: 330px;
 	height: 40px;
 	position: absolute;
 	top: 25%;
 }
 
 .box2 {
-	width: 350px;
+	width: 330px;
 	height: 40px;
 	position: absolute;
 	top: 53%;
 }
 
 .signin {
-	width: 354px;
+	width: 330px;
 	height: 30%;
 	position: absolute;
 	top: 40%;
