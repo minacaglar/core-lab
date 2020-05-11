@@ -805,7 +805,7 @@ body {
 .step1 {
 	font-size: 16px;
 	position: absolute;
-	top: 10%;
+	top: 25%;
 	left: 105%;
 	text-align: left;
 }
@@ -813,7 +813,7 @@ body {
 .step2 {
 	font-size: 16px;
 	position: absolute;
-	top: 10%;
+	top: 25%;
 	left: 105%;
 	text-align: left;
 }
@@ -821,7 +821,7 @@ body {
 .step3 {
 	font-size: 16px;
 	position: absolute;
-	top: 10%;
+	top: -5px;
 	left: 105%;
 	text-align: left;
 }
@@ -829,7 +829,7 @@ body {
 .step4 {
 	font-size: 16px;
 	position: absolute;
-	top: 10%;
+	top: 25%;
 	left: 105%;
 	text-align: left;
 }
