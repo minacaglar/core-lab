@@ -642,9 +642,6 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-  .container {
-  
-  }
 
   .imp{
     display: none;
@@ -1064,6 +1061,8 @@ body {
 	top: 40%;
 	left: 5%;
 }
+
+
 
 
 
