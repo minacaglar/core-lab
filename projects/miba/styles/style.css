@@ -370,39 +370,39 @@ body {
 	left: 25%;
 }
 
-.delivery {
-	width: 250px;
+.location {
+	width: 160px;
 	position: absolute;
-	bottom: 20px;
-	right: 10px;
+	bottom: 10px;
+	right: 55px;
 }
 
 .doner {
 	width: 105px;
 	position: absolute;
-	bottom: 13px;
+	bottom: 8px;
 	left: 15px;
 }
 
 .cay {
 	width: 170px;
 	position: absolute;
-	bottom: 15px;
+	bottom: 8px;
 	right: 6px;
 }
 
 .kitchen {
-	width: 230px;
+	width: 235px;
 	position: absolute;
-	bottom: 20px;
+	bottom: 8px;
 	right: 25px;
 }
 
-.location {
-	width: 160px;
+.delivery {
+	width: 250px;
 	position: absolute;
-	bottom: 18px;
-	right: 55px;
+	bottom: 8px;
+	right: 12px;
 }
 
 .kitchen1 {
@@ -709,8 +709,8 @@ body {
   }
 
   .afiyetolsun {
-  	padding: 2px;
-	font-size: 45px;
+  	padding: 1px;
+	font-size: 38px;
   }
 
   .miba-logo {
@@ -768,37 +768,37 @@ body {
 }
 
 .location {
-	width: 90px;
+	width: 85px;
 	position: absolute;
-	bottom: 17px;
+	bottom: 2px;
 	left: 5%;
 }
 
 .doner {
-	width: 60px;
+	width: 55px;
 	position: absolute;
-	bottom: 15px;
+	bottom: 2px;
 	left: 1%;
 }
 
 .cay {
 	width: 110px;
 	position: absolute;
-	bottom: 15px;
+	bottom: 2px;
 	right: 5%;
 }
 
 .kitchen {
 	width: 130px;
 	position: absolute;
-	bottom: 19px;
+	bottom: 2px;
 	left: 5%;
 }
 
 .delivery {
 	width: 150px;
 	position: absolute;
-	bottom: 12px;
+	bottom: 0px;
 	left: 5%;
 }
 
