@@ -771,35 +771,35 @@ body {
 }
 
 .delivery {
-	width: 82%;
+	width: 170px;
 	position: absolute;
 	bottom: 12px;
 	right: 15px;
 }
 
 .doner {
-	width: 32%;
+	width: 60px;
 	position: absolute;
 	bottom: 15px;
 	left: 1px;
 }
 
 .cay {
-	width: 60%;
+	width: 110px;
 	position: absolute;
 	bottom: 15px;
 	right: 6px;
 }
 
 .kitchen {
-	width: 70%;
+	width: 130px;
 	position: absolute;
 	bottom: 19px;
 	right: 30px;
 }
 
 .location {
-	width: 50%;
+	width: 90px;
 	position: absolute;
 	bottom: 17px;
 	right: 45px;
