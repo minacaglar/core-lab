@@ -664,20 +664,20 @@ body {
 	top: 25%;
 	left: 10%;
   	margin: 0 auto;
-
+  	width: 280px;
   }
 
   .search-adress {
-	width: 300px;
+	width: 280px;
 	height: 40px;
 	position: absolute;
 	top: 40px;
   }
 
   .search-button {
-    width: 130px;
+    width: 100px;
 	height: 40px;
-	left: 170px;
+	left: 180px;
   }
 
   .small {
@@ -839,7 +839,7 @@ body {
 
 .search2 {
 	top: 15%;
-	left: 10%;
+	left: 2%;
   	margin: 0 auto;
 }
 
@@ -848,7 +848,7 @@ body {
 	height: 110px;
 	position: absolute;
 	top: 30%;
-	left: 5%;
+	left: 2%;
 }
 
 .kitchen2 {
@@ -856,7 +856,7 @@ body {
 	height: 110px;
 	position: absolute;
 	top: 47%;
-	left: 5%;
+	left: 2%;
 }
 
 .kitchen3 {
@@ -864,7 +864,7 @@ body {
 	height: 110px;
 	position: absolute;
 	top: 64%;
-	left: 5%;
+	left: 2%;
 }
 
 .kitchen4 {
@@ -872,7 +872,7 @@ body {
 	height: 110px;
 	position: absolute;
 	top: 81%;
-	left: 5%;
+	left: 2%;
 }
 
 .part1 {
@@ -1030,7 +1030,7 @@ body {
   .text {
 	font-size: 16px;
 	line-height: 17px;
-	top: 25px;
+	top: 15px;
 	left: 0px;
 	position: absolute;
 	text-align: center;
@@ -1039,7 +1039,7 @@ body {
 .text2 {
 	font-size: 16px;
 	bottom: 30px;
-	left: 70px;
+	left: 45px;
 	position: absolute;
 }
 
