@@ -727,9 +727,9 @@ body {
   }
 
   .steps1 {
-	position: relative; 
-    top: 100px;
-    left: auto;
+	position: absolute; 
+    top: 15%;
+    left: 20%;
     width: 40%;
     height: 130px;
     margin: 35px;
@@ -738,9 +738,9 @@ body {
 }
 
 .steps2 {
-	position: relative; 
-    top: auto;
-    left: auto;
+	position: absolute; 
+    top: 35%;
+    left: 20%;
     width: 40%;
     height: 130px;
     margin: 35px;
@@ -749,9 +749,9 @@ body {
 }
 
 .steps3 {
-	position: relative; 
-    top: auto;
-    left: auto;
+	position: absolute; 
+    top: 55%;
+    left: 20%;
     width: 40%;
     height: 130px;
     margin: 35px;
@@ -760,9 +760,9 @@ body {
 }
 
 .steps4 {
-	position: relative; 
-    top: auto;
-    left: auto;
+	position: absolute; 
+    top: 75%;
+    left: 20%;
     width: 40%;
     height: 130px;
     margin: 35px;
@@ -771,17 +771,17 @@ body {
 }
 
 .delivery {
-	width: 60%;
+	width: 82%;
 	position: absolute;
-	bottom: 20px;
-	right: 10px;
+	bottom: 12px;
+	right: 15px;
 }
 
 .doner {
-	width: 30%;
+	width: 32%;
 	position: absolute;
-	bottom: 13px;
-	left: 15px;
+	bottom: 15px;
+	left: 1px;
 }
 
 .cay {
@@ -792,48 +792,49 @@ body {
 }
 
 .kitchen {
-	width: 60%;
+	width: 70%;
 	position: absolute;
-	bottom: 20px;
-	right: 25px;
+	bottom: 19px;
+	right: 30px;
 }
 
 .location {
-	width: 60%;
+	width: 50%;
 	position: absolute;
-	bottom: 18px;
-	right: 55px;
+	bottom: 17px;
+	right: 45px;
 }
 
 .step1 {
-	font-size: 18px;
+	font-size: 16px;
 	position: absolute;
-	top: 100%;
-	left: 15%;
-	text-align: center;
+	top: 10%;
+	left: 105%;
+	text-align: left;
 }
 
 .step2 {
-	font-size: 18px;
+	font-size: 16px;
 	position: absolute;
-	top: 100%;
-	left: 12%;
-	text-align: center;
+	top: 10%;
+	left: 105%;
+	text-align: left;
 }
 
 .step3 {
-	font-size: 18px;
+	font-size: 16px;
 	position: absolute;
-	top: 100%;
-	text-align: center;
+	top: 10%;
+	left: 105%;
+	text-align: left;
 }
 
 .step4 {
-	font-size: 18px;
+	font-size: 16px;
 	position: absolute;
-	top: 100%;
-	left: 7%;
-	text-align: center;
+	top: 10%;
+	left: 105%;
+	text-align: left;
 }
 
 .search2 {
