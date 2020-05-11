@@ -643,8 +643,8 @@ body {
 
 @media screen and (max-width: 800px) {
   .container {
-    height: auto;
-    overflow: scroll;
+    width: 100%;
+	height: 100%;
   }
 
   .miba {
