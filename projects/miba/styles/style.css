@@ -647,25 +647,29 @@ body {
 	height: 100%;
   }
 
+  .imp{
+    display: none;
+  }
+
   .miba {
     position: fixed; 
     width: 250px;
     height: auto;
     top: 0px;
     left: 0px;
-    font-size: 58px;
-    line-height: 48px;
+    font-size: 50px;
+    line-height: 40px;
   }
 
   .search {
-	position: absolute;
 	top: 25%;
-	left: 8%;
+  	margin: 0 auto;
+
   }
 
   .search-adress {
-	width: 400px;
-	height: 45px;
+	width: 300px;
+	height: 40px;
 	position: absolute;
 	top: 40px;
 	background-color: none;
@@ -674,14 +678,14 @@ body {
 
   .search-button {
     width: 130px;
-	height: 45px;
+	height: 40px;
 	position: absolute;
-	left: 270px;
+	left: 170px;
   }
 
   .small {
     color: #FFDBF4;
-	font-size: 23px;
+	font-size: 18px;
 	position: absolute;
 	top: 10px;
 	left: 25%;
@@ -690,7 +694,9 @@ body {
   .find {
 	background-color: none;
 	color: #FF1F1F;
-	font-size: 23px;
+	font-size: 18px;
+	position: relative;
+	top: 10px;
   }
 
   .kahve {
