@@ -845,39 +845,39 @@ body {
 
 .kitchen1 {
 	width: 305px;
-	height: 146px;
+	height: 110px;
 	position: absolute;
 	top: 30%;
-	left: 90px;
+	left: 10%;
 }
 
 .kitchen2 {
 	width: 305px;
-	height: 146px;
+	height: 110px;
 	position: absolute;
-	top: 40%;
-	left: 90px;
+	top: 47%;
+	left: 10%;
 }
 
 .kitchen3 {
 	width: 305px;
-	height: 146px;
+	height: 110px;
 	position: absolute;
-	top: 60%;
-	left: 90px;
+	top: 64%;
+	left: 10%;
 }
 
 .kitchen4 {
 	width: 305px;
-	height: 146px;
+	height: 110px;
 	position: absolute;
-	top: 78%;
-	left: 90px;
+	top: 81%;
+	left: 10%;
 }
 
 .part1 {
 	width: 110px;
-	height: 146px;
+	height: 110px;
 	position: absolute;
 	top: -4px;
 	right: -4px;
@@ -885,7 +885,7 @@ body {
 
 .part2 {
 	width: 110px;
-	height: 146px;
+	height: 110px;
 	position: absolute;
 	top: -4px;
 	right: -4px;
@@ -893,7 +893,7 @@ body {
 
 .part3 {
 	width: 110px;
-	height: 146px;
+	height: 110px;
 	position: absolute;
 	top: -4px;
 	right: -4px;
@@ -901,7 +901,7 @@ body {
 
 .part4 {
 	width: 110px;
-	height: 146px;
+	height: 110px;
 	position: absolute;
 	top: -4px;
 	right: -4px;
@@ -909,48 +909,48 @@ body {
 
 .minipart1 {
 	width: 192px;
-	height: 60px;
+	height: 50px;
 	position: absolute;
 	top: -4px;
 	left: -4px;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
 }
 
 .minipart2 {
 	width: 192px;
-	height: 60px;
+	height: 50px;
 	position: absolute;
 	top: -4px;
 	left: -4px;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
 }
 
 .minipart3 {
 	width: 192px;
-	height: 60px;
+	height: 50px;
 	position: absolute;
 	top: -4px;
 	left: -4px;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
 }
 
 .minipart4 {
 	width: 192px;
-	height: 60px;
+	height: 50px;
 	position: absolute;
 	padding: 0px;
 	top: -4px;
 	left: -4px;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
 }
 
 .description1 {
 	width: 192px;
-	height: 84px;
+	height: 60px;
 	position: absolute;
 	bottom: -4px;
 	left: -4px;
@@ -960,7 +960,7 @@ body {
 
 .description2 {
 	width: 192px;
-	height: 84px;
+	height: 60px;
 	position: absolute;
 	bottom: -4px;
 	left: -4px;
@@ -970,7 +970,7 @@ body {
 
 .description3 {
 	width: 192px;
-	height: 84px;
+	height: 60px;
 	position: absolute;
 	bottom: -4px;
 	left: -4px;
@@ -980,7 +980,7 @@ body {
 
 .description4 {
 	width: 192px;
-	height: 84px;
+	height: 60px;
 	position: absolute;
 	padding: 0px;
 	bottom: -4px;
@@ -992,28 +992,28 @@ body {
 .dolma {
 	width: 105px;
 	position: absolute;
-	bottom: 30px;
-	left: 2px
+	bottom: 12px;
+	left: 4px
 }
 
 .menemen {
 	width: 110px;
 	position: absolute;
-	bottom: 40px;
+	bottom: 13px;
 	left: 0px
 }
 
 .pide {
 	width: 105px;
 	position: absolute;
-	bottom: 40px;
-	left: 2px
+	bottom: 18px;
+	left: 4px
 }
 
 .meze {
 	width: 105px;
 	position: absolute;
-	bottom: 20px;
+	bottom: 10px;
 	left: 5px
 }
 
