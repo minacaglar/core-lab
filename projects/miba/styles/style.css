@@ -774,35 +774,35 @@ body {
 	width: 90px;
 	position: absolute;
 	bottom: 17px;
-	right: 45px;
+	left: 5%;
 }
 
 .doner {
 	width: 60px;
 	position: absolute;
 	bottom: 15px;
-	left: 1px;
+	left: 1%;
 }
 
 .cay {
 	width: 110px;
 	position: absolute;
 	bottom: 15px;
-	right: 6px;
+	right: 5%;
 }
 
 .kitchen {
 	width: 130px;
 	position: absolute;
 	bottom: 19px;
-	right: 30px;
+	left: 5%;
 }
 
 .delivery {
-	width: 170px;
+	width: 150px;
 	position: absolute;
 	bottom: 12px;
-	right: 15px;
+	left: 5%;
 }
 
 .step1 {
